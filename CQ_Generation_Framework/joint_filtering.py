@@ -18,7 +18,7 @@ deployment_name, serpapi_api_key = initialize_clients()
 # Initialize local models
 embedding_model = SentenceTransformer('all-mpnet-base-v2')
 
-# Load spaCy model for linguistic complexity
+# Load spaCy for linguistic complexity
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
@@ -35,7 +35,7 @@ COMPLEXITY_WEIGHT = float(os.getenv("COMPLEXITY_WEIGHT", 0.3))  # 30% weight to 
 FINAL_THRESHOLD = float(os.getenv("FINAL_THRESHOLD", 0.5))
 
 # ========== Load Domain Info ==========
-domain_info_file = Path(__file__).resolve().parent / "json_input/revised_DFC_domain_info.json"
+domain_info_file = Path(__file__).resolve().parent / "json_input/domain-info.json"
 with open(domain_info_file, "r", encoding="utf-8") as f:
     domain_info = json.load(f)
 
@@ -45,7 +45,6 @@ all_items = []
 
 # Iterate through all key-value pairs in the domain_info dictionary
 for key, value in domain_info.items():
-    # Add the key itself
     all_items.append(key)
 
     # Add the values

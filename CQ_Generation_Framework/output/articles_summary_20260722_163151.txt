@@ -1,0 +1,190 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 30
+Total Input Tokens: 13149
+Generated on: 2026-07-22 16:31:52
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Tumor irradiation induced immunogenic response: the impact of DNA damage induction and misrepair - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-025-02711-x.pdf
+  Text Length: 60751 characters
+  Filter Keywords Found: 13
+
+Article 2:
+  Title: Carbon ion radiotherapy: impact of tumor differentiation on local control in experimental prostate carcinomas - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-017-0914-9.pdf
+  Text Length: 52555 characters
+  Filter Keywords Found: 13
+
+Article 3:
+  Title: Chemoradioimmunotherapy of inoperable stage III non-small cell lung cancer: immunological rationale and current clinical trials establishing a novel multimodal strategy - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-020-01595-3.pdf
+  Text Length: 76197 characters
+  Filter Keywords Found: 13
+
+Article 4:
+  Title: Why and how to spare the hippocampus during brain radiotherapy: the developing role of hippocampal avoidance in cranial radiotherapy - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/1748-717x-9-139.pdf
+  Text Length: 55171 characters
+  Filter Keywords Found: 12
+
+Article 5:
+  Title: The future of radiotherapy is molecular - Physical and Engineering Sciences in Medicine
+  URL: https://link.springer.com/content/pdf/10.1007/s13246-020-00917-9.pdf
+  Text Length: 19166 characters
+  Filter Keywords Found: 10
+
+Article 6:
+  Title: Stereotactic MRI-guided radiation therapy for localized prostate cancer (SMILE): a prospective, multicentric phase-II-trial - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-022-02047-w.pdf
+  Text Length: 41729 characters
+  Filter Keywords Found: 11
+
+Article 7:
+  Title: Treatment-duration is related to changes in peripheral lymphocyte counts during definitive radiotherapy for unresectable stage III NSCLC - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-019-1287-z.pdf
+  Text Length: 51606 characters
+  Filter Keywords Found: 10
+
+Article 8:
+  Title: Combined radiotherapy and concurrent tumor treating fields (TTFields) for glioblastoma: Dosimetric consequences on non-coplanar IMRT as initial results from a phase I trial - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-020-01521-7.pdf
+  Text Length: 54925 characters
+  Filter Keywords Found: 13
+
+Article 9:
+  Title: Thorax irradiation triggers a local and systemic accumulation of immunosuppressive CD4+ FoxP3+ regulatory T cells - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/1748-717X-9-98.pdf
+  Text Length: 55707 characters
+  Filter Keywords Found: 12
+
+Article 10:
+  Title: TCR-T cell therapy: current development approaches, preclinical evaluation, and perspectives on regulatory challenges - Journal of Translational Medicine
+  URL: https://link.springer.com/content/pdf/10.1186/s12967-024-05703-9.pdf
+  Text Length: 94724 characters
+  Filter Keywords Found: 18
+
+Article 11:
+  Title: To Improve Translational Research in Subarachnoid Hemorrhage - Translational Stroke Research
+  URL: https://link.springer.com/content/pdf/10.1007/s12975-017-0546-2.pdf
+  Text Length: 16243 characters
+  Filter Keywords Found: 11
+
+Article 12:
+  Title: “Lost in translation?” Animal research in the era of precision medicine - Journal of Translational Medicine
+  URL: https://link.springer.com/content/pdf/10.1186/s12967-025-06084-3.pdf
+  Text Length: 75571 characters
+  Filter Keywords Found: 19
+
+Article 13:
+  Title: Cancer DNA vaccines: current preclinical and clinical developments and future perspectives - Journal of Experimental & Clinical Cancer Research
+  URL: https://link.springer.com/content/pdf/10.1186/s13046-019-1154-7.pdf
+  Text Length: 126283 characters
+  Filter Keywords Found: 14
+
+Article 14:
+  Title: A review of animal models utilized in preclinical studies of approved gene therapy products: trends and insights - Laboratory Animal Research
+  URL: https://link.springer.com/content/pdf/10.1186/s42826-024-00195-6.pdf
+  Text Length: 90667 characters
+  Filter Keywords Found: 16
+
+Article 15:
+  Title: Study partners should be required in preclinical Alzheimer’s disease trials - Alzheimer's Research & Therapy
+  URL: https://link.springer.com/content/pdf/10.1186/s13195-017-0327-x.pdf
+  Text Length: 38496 characters
+  Filter Keywords Found: 11
+
+Article 16:
+  Title: Practical guidelines for rigor and reproducibility in preclinical and clinical studies on cardioprotection - Basic Research in Cardiology
+  URL: https://link.springer.com/content/pdf/10.1007/s00395-018-0696-8.pdf
+  Text Length: 422510 characters
+  Filter Keywords Found: 17
+
+Article 17:
+  Title: Effects of psychedelics on opioid use disorder: a scoping review of preclinical studies - Cellular and Molecular Life Sciences
+  URL: https://link.springer.com/content/pdf/10.1007/s00018-024-05519-2.pdf
+  Text Length: 117012 characters
+  Filter Keywords Found: 15
+
+Article 18:
+  Title: Oncolytic virus-based suicide gene therapy for cancer treatment: a perspective of the clinical trials conducted at Henry Ford Health - Translational Medicine Communications
+  URL: https://link.springer.com/content/pdf/10.1186/s41231-023-00144-w.pdf
+  Text Length: 108872 characters
+  Filter Keywords Found: 13
+
+Article 19:
+  Title: Effect and potential mechanism of photobiomodulation therapy on cognitive deficits in animal models of Alzheimer’s disease: a systematic review and meta-analysis - European Journal of Medical Research
+  URL: https://link.springer.com/content/pdf/10.1186/s40001-026-04057-w.pdf
+  Text Length: 87928 characters
+  Filter Keywords Found: 15
+
+Article 20:
+  Title: Preclinical dosimetry: exploring the use of small animal phantoms - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-019-1343-8.pdf
+  Text Length: 48363 characters
+  Filter Keywords Found: 14
+
+Article 21:
+  Title: Animal models for critical-sized long-bone defects and long-bone non-union: a scoping review - Journal of Orthopaedic Surgery and Research
+  URL: https://link.springer.com/content/pdf/10.1186/s13018-026-06697-4.pdf
+  Text Length: 65803 characters
+  Filter Keywords Found: 15
+
+Article 22:
+  Title: Beyond the mouse: 3R-guided alternative animal models transforming cancer research - Molecular Cancer
+  URL: https://link.springer.com/content/pdf/10.1186/s12943-026-02601-0.pdf
+  Text Length: 145480 characters
+  Filter Keywords Found: 19
+
+Article 23:
+  Title: The effects of cell therapy on seizures in animal models of epilepsy: protocol for systematic review and meta-analysis of preclinical studies - Systematic Reviews
+  URL: https://link.springer.com/content/pdf/10.1186/s13643-019-1169-3.pdf
+  Text Length: 20451 characters
+  Filter Keywords Found: 15
+
+Article 24:
+  Title: Can animal data translate to innovations necessary for a new era of patient-centred and individualised healthcare? Bias in preclinical animal research - BMC Medical Ethics
+  URL: https://link.springer.com/content/pdf/10.1186/s12910-015-0043-7.pdf
+  Text Length: 77759 characters
+  Filter Keywords Found: 16
+
+Article 25:
+  Title: National Preclinical Sepsis Platform: developing a framework for accelerating innovation in Canadian sepsis research - Intensive Care Medicine Experimental
+  URL: https://link.springer.com/content/pdf/10.1186/s40635-020-00366-4.pdf
+  Text Length: 66447 characters
+  Filter Keywords Found: 17
+
+Article 26:
+  Title: Understanding translational research in schizophrenia: A novel insight into animal models
+  URL: https://link.springer.com/content/pdf/10.1007/s11033-023-08241-7.pdf
+  Text Length: 98969 characters
+  Filter Keywords Found: 14
+
+Article 27:
+  Title: Efficacy of mesenchymal stem cell therapy for sepsis: a meta-analysis of preclinical studies - Stem Cell Research & Therapy
+  URL: https://link.springer.com/content/pdf/10.1186/s13287-020-01730-7.pdf
+  Text Length: 49657 characters
+  Filter Keywords Found: 13
+
+Article 28:
+  Title: Advances in targeting histone deacetylase for treatment of solid tumors - Journal of Hematology & Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13045-024-01551-8.pdf
+  Text Length: 110147 characters
+  Filter Keywords Found: 18
+
+Article 29:
+  Title: Topical Drug Delivery to the Posterior Segment of the Eye: Addressing the Challenge of Preclinical to Clinical Translation - Pharmaceutical Research
+  URL: https://link.springer.com/content/pdf/10.1007/s11095-018-2519-x.pdf
+  Text Length: 25244 characters
+  Filter Keywords Found: 9
+
+Article 30:
+  Title: Experimental models in immuno-oncology and their translational impact
+  URL: https://link.springer.com/content/pdf/10.1007/s12672-026-05394-2_reference.pdf
+  Text Length: 125331 characters
+  Filter Keywords Found: 18
+

@@ -1,0 +1,190 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 30
+Total Input Tokens: 13167
+Generated on: 2026-07-22 15:41:37
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Experimental models of chemical carcinogenesis: bridging toxicology and preclinical pharmacology - Journal of the Egyptian National Cancer Institute
+  URL: https://link.springer.com/content/pdf/10.1186/s43046-026-00345-y.pdf
+  Text Length: 72826 characters
+  Filter Keywords Found: 20
+
+Article 2:
+  Title: Neuroprotective effects of icariin in animal models of depression and anxiety: a systematic review of preclinical studies - BMC Complementary Medicine and Therapies
+  URL: https://link.springer.com/content/pdf/10.1186/s12906-026-05302-9.pdf
+  Text Length: 102539 characters
+  Filter Keywords Found: 21
+
+Article 3:
+  Title: Optimization and characterization of acute radiation-induced esophagitis in mice - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-025-02720-w.pdf
+  Text Length: 63150 characters
+  Filter Keywords Found: 18
+
+Article 4:
+  Title: An EANM position paper on advancing radiobiology for shaping the future of nuclear medicine - European Journal of Nuclear Medicine and Molecular Imaging
+  URL: https://link.springer.com/content/pdf/10.1007/s00259-022-05934-2.pdf
+  Text Length: 24781 characters
+  Filter Keywords Found: 18
+
+Article 5:
+  Title: Modelling acute myeloid leukemia (AML): What’s new? A transition from the classical to the modern - Drug Delivery and Translational Research
+  URL: https://link.springer.com/content/pdf/10.1007/s13346-022-01189-4.pdf
+  Text Length: 194451 characters
+  Filter Keywords Found: 19
+
+Article 6:
+  Title: Local FLASH radiation exhibits a double-edged effect on the mouse immune system - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-026-02810-3.pdf
+  Text Length: 44820 characters
+  Filter Keywords Found: 17
+
+Article 7:
+  Title: Effects of ionizing radiation in combination with Erufosine on T98G glioblastoma xenograft tumours: a study in NMRI nu/nu mice - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/1748-717X-7-172.pdf
+  Text Length: 51051 characters
+  Filter Keywords Found: 17
+
+Article 8:
+  Title: Chemotherapeutic efficacy of nano formulation capecitabine@SNPs and gamma radiation: a novel metronomic approach for breast cancer treatment - Drug Delivery and Translational Research
+  URL: https://link.springer.com/content/pdf/10.1007/s13346-026-02099-5.pdf
+  Text Length: 125225 characters
+  Filter Keywords Found: 22
+
+Article 9:
+  Title: Multicenter peritumoral radiomics in oncology: advances, challenges, and future directions - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-026-02817-w.pdf
+  Text Length: 119928 characters
+  Filter Keywords Found: 17
+
+Article 10:
+  Title: From morphology to single-cell molecules: high-resolution 3D histology in biomedicine - Molecular Cancer
+  URL: https://link.springer.com/content/pdf/10.1186/s12943-025-02240-x.pdf
+  Text Length: 309420 characters
+  Filter Keywords Found: 23
+
+Article 11:
+  Title: Transforming oncology nursing navigation: impact of online training on holistic care and therapeutic relationship skills - BMC Medical Education
+  URL: https://link.springer.com/content/pdf/10.1186/s12909-026-09800-9_reference.pdf
+  Text Length: 76008 characters
+  Filter Keywords Found: 15
+
+Article 12:
+  Title: Improve definition of titanium tandems in MR-guided high dose rate brachytherapy for cervical cancer using proton density weighted MRI - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/1748-717X-8-16.pdf
+  Text Length: 34356 characters
+  Filter Keywords Found: 10
+
+Article 13:
+  Title: Stereotactic implantation of diffusing alpha-emitters radiation therapy sources in the swine brain: a potential new focal therapy for brain tumors - Journal of Neuro-Oncology
+  URL: https://link.springer.com/content/pdf/10.1007/s11060-024-04919-5.pdf
+  Text Length: 43197 characters
+  Filter Keywords Found: 18
+
+Article 14:
+  Title: The immune suppressive microenvironment affects efficacy of radio‐immunotherapy in brain metastasis - EMBO Molecular Medicine
+  URL: https://link.springer.com/content/pdf/10.15252/emmm.202013412.pdf
+  Text Length: 75605 characters
+  Filter Keywords Found: 18
+
+Article 15:
+  Title: Modulation of radiation-induced oral mucositis (mouse) by dermatan sulfate: effects on differentiation processes - Strahlentherapie und Onkologie
+  URL: https://link.springer.com/content/pdf/10.1007/s00066-019-01532-8.pdf
+  Text Length: 36744 characters
+  Filter Keywords Found: 15
+
+Article 16:
+  Title: Mesenchymal stromal cell therapy is a long-term regenerative approach for chronic radiation cystitis, involving coordinated modulation of the urothelial, immune, vascular, and fibrotic pathways - Stem
+  URL: https://link.springer.com/content/pdf/10.1186/s13287-026-05019-z.pdf
+  Text Length: 64832 characters
+  Filter Keywords Found: 17
+
+Article 17:
+  Title: A theory-based educational intervention targeting nurses' attitudes and knowledge concerning cancer-related pain management: A study protocol of a quasi-experimental design - BMC Health Services Resea
+  URL: https://link.springer.com/content/pdf/10.1186/1472-6963-11-233.pdf
+  Text Length: 48423 characters
+  Filter Keywords Found: 11
+
+Article 18:
+  Title: EGFR and COX-2 protein expression in non-small cell lung cancer and the correlation with clinical features - Journal of Experimental & Clinical Cancer Research
+  URL: https://link.springer.com/content/pdf/10.1186/1756-9966-30-27.pdf
+  Text Length: 35585 characters
+  Filter Keywords Found: 11
+
+Article 19:
+  Title: Phase I trial of ATM inhibitor M3541 in combination with palliative radiotherapy in patients with solid tumors - Investigational New Drugs
+  URL: https://link.springer.com/content/pdf/10.1007/s10637-022-01216-8.pdf
+  Text Length: 43231 characters
+  Filter Keywords Found: 16
+
+Article 20:
+  Title: Clinically relevant radiation therapy doses and obturation techniques modulate the adhesive performance of a resin-based sealer: interfacial integrity and bond strength analyses - Clinical Oral Invest
+  URL: https://link.springer.com/content/pdf/10.1007/s00784-026-06800-3.pdf
+  Text Length: 65069 characters
+  Filter Keywords Found: 18
+
+Article 21:
+  Title: Feasibility analysis of conducting observational studies with the electronic health record - BMC Medical Informatics and Decision Making
+  URL: https://link.springer.com/content/pdf/10.1186/s12911-019-0939-0.pdf
+  Text Length: 66528 characters
+  Filter Keywords Found: 19
+
+Article 22:
+  Title: Patient-reported outcome (PRO)-based symptom assessment in patients with advanced lung cancer receiving first-line combination immunotherapy: a protocol for a multicenter, prospective, observational s
+  URL: https://link.springer.com/content/pdf/10.1186/s12890-023-02432-5.pdf
+  Text Length: 33565 characters
+  Filter Keywords Found: 15
+
+Article 23:
+  Title: Protocol of a study investigating breath-hold techniques for upper-abdominal radiation therapy (BURDIE): addressing the challenge of a moving target - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-020-01688-z.pdf
+  Text Length: 27255 characters
+  Filter Keywords Found: 13
+
+Article 24:
+  Title: Efficacy of Intra-arterial [177Lu]Lu-DOTATATE monotherapy for treatment-refractory meningioma - Journal of Neuro-Oncology
+  URL: https://link.springer.com/content/pdf/10.1007/s11060-025-05266-9.pdf
+  Text Length: 38461 characters
+  Filter Keywords Found: 15
+
+Article 25:
+  Title: Recapitulating the tumour microenvironment: advancing personalised radiation therapy through organoid technology - Journal of Experimental & Clinical Cancer Research
+  URL: https://link.springer.com/content/pdf/10.1186/s13046-026-03655-0.pdf
+  Text Length: 124891 characters
+  Filter Keywords Found: 20
+
+Article 26:
+  Title: A review of deep learning-based multimodal data integration of lung cancer
+  URL: https://link.springer.com/content/pdf/10.1007/s10238-026-02184-6_reference.pdf
+  Text Length: 93011 characters
+  Filter Keywords Found: 17
+
+Article 27:
+  Title: Advancements in single-cell sequencing for cervical cancer research - Molecular and Cellular Biochemistry
+  URL: https://link.springer.com/content/pdf/10.1007/s11010-025-05407-8.pdf
+  Text Length: 107556 characters
+  Filter Keywords Found: 17
+
+Article 28:
+  Title: Operationalizing and digitizing person-centered daily functioning: a case for functionomics - BMC Medical Informatics and Decision Making
+  URL: https://link.springer.com/content/pdf/10.1186/s12911-024-02584-2.pdf
+  Text Length: 54497 characters
+  Filter Keywords Found: 19
+
+Article 29:
+  Title: Harnessing PDX and PDX 2.0: the next-generation paradigm for precision oncology and translational breakthroughs - Molecular Cancer
+  URL: https://link.springer.com/content/pdf/10.1186/s12943-026-02594-w.pdf
+  Text Length: 216132 characters
+  Filter Keywords Found: 26
+
+Article 30:
+  Title: Target discovery and drug design in the era of artificial intelligence - Medicinal Chemistry Research
+  URL: https://link.springer.com/content/pdf/10.1007/s00044-026-03562-1.pdf
+  Text Length: 166348 characters
+  Filter Keywords Found: 21
+

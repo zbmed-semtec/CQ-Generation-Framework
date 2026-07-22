@@ -1,0 +1,68 @@
+{
+  "MAIN_DOMAIN_NAME": "Preclinical Trials in Radiation Oncology",
+  "TOPIC_TERMS": [
+    "Radiation Oncology",
+    "Preclinical Trials",
+    "Animal Models",
+    "Experimental Design",
+    "Treatment Protocols",
+    "Subject Characteristics",
+    "Laboratory Findings",
+    "Outcome Measures",
+    "Data Integration",
+    "Semantic Interoperability",
+    "Knowledge Graphs",
+    "FAIR Data Principles",
+    "Biomedical Research",
+    "Data Annotation",
+    "Complex Queries",
+    "Translational Research",
+    "Radiotherapy Studies",
+    "Experimental Data",
+    "Data Sharing",
+    "Knowledge Discovery"
+  ],
+  "FILTER_KEYWORDS": [
+    "radiation",
+    "oncology",
+    "preclinical",
+    "trials",
+    "experiments",
+    "animal",
+    "models",
+    "data",
+    "integration",
+    "interoperability",
+    "semantics",
+    "research",
+    "biomedical",
+    "findings",
+    "outcomes",
+    "annotation",
+    "protocols",
+    "characteristics",
+    "queries",
+    "discovery",
+    "sharing",
+    "knowledge",
+    "graphs",
+    "FAIR",
+    "translational"
+  ],
+  "MAIN_DOMAIN_WORDS": [
+    "radiation",
+    "oncology",
+    "trials"
+  ],
+  "COMPOUND_GENERAL_TERMS": [
+    "Preclinical Research",
+    "Radiation Therapy"
+  ],
+  "ONTOLOGY_COVERAGE_AREAS": [
+    "Experimental Design",
+    "Treatment Outcomes",
+    "Subject Characteristics",
+    "Data Annotation",
+    "Knowledge Integration"
+  ]
+}

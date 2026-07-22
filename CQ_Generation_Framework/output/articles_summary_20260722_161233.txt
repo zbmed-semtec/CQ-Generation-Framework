@@ -1,0 +1,190 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 30
+Total Input Tokens: 13005
+Generated on: 2026-07-22 16:12:33
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Effects of whole-brain radiation therapy on the blood–brain barrier in immunocompetent and immunocompromised mouse models - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-023-02215-6.pdf
+  Text Length: 50207 characters
+  Filter Keywords Found: 19
+
+Article 2:
+  Title: Small field dosimetry for the small animal radiotherapy research platform (SARRP) - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-017-0936-3.pdf
+  Text Length: 34588 characters
+  Filter Keywords Found: 17
+
+Article 3:
+  Title: Preclinical investigations towards the first spacer gel application in prostate cancer treatment during particle therapy at HIT - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/1748-717X-8-134.pdf
+  Text Length: 57137 characters
+  Filter Keywords Found: 12
+
+Article 4:
+  Title: Radiation-induced lung toxicity – cellular and molecular mechanisms of pathogenesis, management, and literature review - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-020-01654-9.pdf
+  Text Length: 102752 characters
+  Filter Keywords Found: 21
+
+Article 5:
+  Title: Future prospects in radiation oncology from the perspective of innovative radiation biology - Strahlentherapie und Onkologie
+  URL: https://link.springer.com/content/pdf/10.1007/s00066-023-02163-w.pdf
+  Text Length: 14989 characters
+  Filter Keywords Found: 12
+
+Article 6:
+  Title: Effect and potential mechanism of photobiomodulation therapy on cognitive deficits in animal models of Alzheimer’s disease: a systematic review and meta-analysis - European Journal of Medical Research
+  URL: https://link.springer.com/content/pdf/10.1186/s40001-026-04057-w.pdf
+  Text Length: 87928 characters
+  Filter Keywords Found: 18
+
+Article 7:
+  Title: National Preclinical Sepsis Platform: developing a framework for accelerating innovation in Canadian sepsis research - Intensive Care Medicine Experimental
+  URL: https://link.springer.com/content/pdf/10.1186/s40635-020-00366-4.pdf
+  Text Length: 66447 characters
+  Filter Keywords Found: 20
+
+Article 8:
+  Title: Ethical and regulatory issues of stem cell-derived 3-dimensional organoid and tissue therapy for personalised regenerative medicine - BMC Medicine
+  URL: https://link.springer.com/content/pdf/10.1186/s12916-022-02710-9.pdf
+  Text Length: 69516 characters
+  Filter Keywords Found: 15
+
+Article 9:
+  Title: Acute respiratory distress syndrome subphenotypes and therapy responsive traits among preclinical models: protocol for a systematic review and meta-analysis - Respiratory Research
+  URL: https://link.springer.com/content/pdf/10.1186/s12931-020-01337-9.pdf
+  Text Length: 50398 characters
+  Filter Keywords Found: 19
+
+Article 10:
+  Title: DNA vaccination for prostate cancer, from preclinical to clinical trials - where we stand? - Genetic Vaccines and Therapy
+  URL: https://link.springer.com/content/pdf/10.1186/1479-0556-10-9.pdf
+  Text Length: 44936 characters
+  Filter Keywords Found: 13
+
+Article 11:
+  Title: Phase III Preclinical Trials in Translational Stroke Research: Community Response on Framework and Guidelines - Translational Stroke Research
+  URL: https://link.springer.com/content/pdf/10.1007/s12975-016-0474-6.pdf
+  Text Length: 24293 characters
+  Filter Keywords Found: 14
+
+Article 12:
+  Title: Resolving the Tension Between Exploration and Confirmation in Preclinical Biomedical Research
+  URL: https://link.springer.com/content/pdf/10.1007/164_2019_278.pdf
+  Text Length: 27698 characters
+  Filter Keywords Found: 14
+
+Article 13:
+  Title: A review of animal models utilized in preclinical studies of approved gene therapy products: trends and insights - Laboratory Animal Research
+  URL: https://link.springer.com/content/pdf/10.1186/s42826-024-00195-6.pdf
+  Text Length: 90667 characters
+  Filter Keywords Found: 17
+
+Article 14:
+  Title: To Improve Translational Research in Subarachnoid Hemorrhage - Translational Stroke Research
+  URL: https://link.springer.com/content/pdf/10.1007/s12975-017-0546-2.pdf
+  Text Length: 16243 characters
+  Filter Keywords Found: 15
+
+Article 15:
+  Title: Oncolytic adenoviruses and the treatment of pancreatic cancer: a review of clinical trials - Journal of Cancer Research and Clinical Oncology
+  URL: https://link.springer.com/content/pdf/10.1007/s00432-023-04735-w.pdf
+  Text Length: 60703 characters
+  Filter Keywords Found: 13
+
+Article 16:
+  Title: Large animal models for stem cell therapy - Stem Cell Research & Therapy
+  URL: https://link.springer.com/content/pdf/10.1186/scrt171.pdf
+  Text Length: 55938 characters
+  Filter Keywords Found: 17
+
+Article 17:
+  Title: Beyond the mouse: 3R-guided alternative animal models transforming cancer research - Molecular Cancer
+  URL: https://link.springer.com/content/pdf/10.1186/s12943-026-02601-0.pdf
+  Text Length: 145480 characters
+  Filter Keywords Found: 21
+
+Article 18:
+  Title: Sex-based analysis of treatment responses in animal models of sepsis: a preclinical systematic review protocol - Systematic Reviews
+  URL: https://link.springer.com/content/pdf/10.1186/s13643-023-02189-2.pdf
+  Text Length: 44667 characters
+  Filter Keywords Found: 16
+
+Article 19:
+  Title: The effects of cell therapy on seizures in animal models of epilepsy: protocol for systematic review and meta-analysis of preclinical studies - Systematic Reviews
+  URL: https://link.springer.com/content/pdf/10.1186/s13643-019-1169-3.pdf
+  Text Length: 20451 characters
+  Filter Keywords Found: 17
+
+Article 20:
+  Title: A review of formulations and preclinical studies of inhaled rifampicin for its clinical translation - Drug Delivery and Translational Research
+  URL: https://link.springer.com/content/pdf/10.1007/s13346-022-01238-y.pdf
+  Text Length: 138274 characters
+  Filter Keywords Found: 17
+
+Article 21:
+  Title: Mesenchymal stem cell-derived extracellular vesicles therapy for primary ovarian insufficiency: a systematic review and meta-analysis of pre-clinical studies - Journal of Ovarian Research
+  URL: https://link.springer.com/content/pdf/10.1186/s13048-024-01513-1.pdf
+  Text Length: 86520 characters
+  Filter Keywords Found: 18
+
+Article 22:
+  Title: Parkinson’s disease mouse models in translational research - Mammalian Genome
+  URL: https://link.springer.com/content/pdf/10.1007/s00335-011-9330-x.pdf
+  Text Length: 104387 characters
+  Filter Keywords Found: 14
+
+Article 23:
+  Title: Regenerative Engineering Animal Models for Knee Osteoarthritis - Regenerative Engineering and Translational Medicine
+  URL: https://link.springer.com/content/pdf/10.1007/s40883-021-00225-y.pdf
+  Text Length: 72281 characters
+  Filter Keywords Found: 14
+
+Article 24:
+  Title: Stem cell therapy for Crohn’s disease: systematic review and meta-analysis of preclinical and clinical studies - Stem Cell Research & Therapy
+  URL: https://link.springer.com/content/pdf/10.1186/s13287-021-02533-0.pdf
+  Text Length: 77148 characters
+  Filter Keywords Found: 15
+
+Article 25:
+  Title: Understanding translational research in schizophrenia: A novel insight into animal models
+  URL: https://link.springer.com/content/pdf/10.1007/s11033-023-08241-7.pdf
+  Text Length: 98969 characters
+  Filter Keywords Found: 16
+
+Article 26:
+  Title: Experimental models in immuno-oncology and their translational impact
+  URL: https://link.springer.com/content/pdf/10.1007/s12672-026-05394-2_reference.pdf
+  Text Length: 125331 characters
+  Filter Keywords Found: 21
+
+Article 27:
+  Title: Reporting of measures against bias in nonclinical published research studies: a journal-based comparison - Research Integrity and Peer Review
+  URL: https://link.springer.com/content/pdf/10.1186/s41073-025-00176-w.pdf
+  Text Length: 36369 characters
+  Filter Keywords Found: 16
+
+Article 28:
+  Title: Building Robustness into Translational Research
+  URL: https://link.springer.com/content/pdf/10.1007/164_2019_283.pdf
+  Text Length: 41355 characters
+  Filter Keywords Found: 15
+
+Article 29:
+  Title: A systematic review, umbrella review, and quality assessment on clinical translation of stem cell therapy for knee osteoarthritis: Are we there yet? - Stem Cell Research & Therapy
+  URL: https://link.springer.com/content/pdf/10.1186/s13287-023-03332-5.pdf
+  Text Length: 88486 characters
+  Filter Keywords Found: 16
+
+Article 30:
+  Title: Cell therapy as a treatment of secondary lymphedema: a systematic review and meta-analysis - Stem Cell Research & Therapy
+  URL: https://link.springer.com/content/pdf/10.1186/s13287-021-02632-y.pdf
+  Text Length: 80400 characters
+  Filter Keywords Found: 18
+
