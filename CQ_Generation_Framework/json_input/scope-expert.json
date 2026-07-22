@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Describe the knowledge domain or subject area in two to three sentences.",
+    "response": "PTRO (Ontology for Preclinical Trials in Radiation Oncology) is a biomedical ontology that models knowledge related to preclinical radiation oncology experiments, particularly studies involving animal models. It provides a standardized semantic representation of experimental design, treatments, subject characteristics, observations, laboratory findings, and outcomes to support interoperable data integration, sharing, and analysis across preclinical radiotherapy studies."
+  },
+  {
+    "question": "Name specific problems in the subject area to be addressed by the knowledge system.",
+    "response": "PTRO addresses heterogeneous representation of preclinical study data across laboratories, the lack of standardized terminology, limited semantic interoperability between datasets, difficulties in performing complex semantic queries and knowledge discovery, and the need to support FAIR (Findable, Accessible, Interoperable, and Reusable) data principles."
+  },
+  {
+    "question": "Who is the intended audience for the knowledge system and who will work with it in the future?",
+    "response": "The intended audience includes radiation oncology researchers, biomedical data scientists, bioinformaticians, ontology and knowledge engineers, clinical and translational researchers, and developers of knowledge graphs and FAIR data infrastructures."
+  },
+  {
+    "question": "Describe some use cases of the knowledge system in short sentences.",
+    "response": "PTRO can be used to integrate preclinical radiation oncology datasets from multiple laboratories, annotate experimental data using standardized ontology concepts, build biomedical knowledge graphs, execute semantic queries over experimental data, support FAIRification of preclinical datasets, and enable translational research by linking preclinical and clinical data."
+  }
+]
