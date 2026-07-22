@@ -10,8 +10,6 @@ The framework has been developed using Python 3.13. It uses Azure OpenAI service
 GPT-5 was utilized for Domain information extraction for higher precision. All API calls are configured with a low temperature setting to ensure deterministic and reproducible outputs across the ontology engineering pipeline: temperature=0.3 for the generative CQ creation step, and temperature=0.1 for more deterministic tasks like domain information extraction, CQ refinement, filtering,
 and clustering. 
 
-Several Python libraries have been used to develop the pipeline, including spaCy for text processing, langdetect for language identification of scholarly articles, sentence-transformers and scikit-learn for calculating the semantic similarity of CQs, SciPy for data analysis, and other common libraries such as pandas and NumPy.
-
 ## Usage
 1. Install the required dependencies: ```pip install -r requirements.txt```
 2. Copy `.env-sample` to a new file named `.env` in the `CQ_Generation_Framework` folder and fill in the required keys.
