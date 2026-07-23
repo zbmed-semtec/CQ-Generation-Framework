@@ -11,15 +11,16 @@ load_environment_variables()
 deployment_name, serpapi_api_key = initialize_clients()
 
 # ========== Load domain information from JSON ==========
+BASE_DIR = Path(__file__).resolve().parent
+
 def load_domain_config(config_path: str = "json_input/domain-info.json") -> Dict:
-    """
-    Load domain configuration from JSON file.
-    """
+    file_path = BASE_DIR / config_path
+
     try:
-        with open(config_path, 'r', encoding='utf-8') as f:
+        with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        print(f"Error: {config_path} not found.")
+        print(f"Error: {file_path} not found.")
         return {}
 
 domain_config = load_domain_config("json_input/domain-info.json")

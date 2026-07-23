@@ -1,13 +1,17 @@
 import openai
 import json
 import pandas as pd
+from pathlib import Path
 from utils import load_environment_variables, initialize_clients
 
 load_environment_variables()
 deployment_name, serpapi_api_key = initialize_clients()
 
 # ========== Load Expert Scope ==========
-with open("json_input/scope-expert.json", "r", encoding="utf-8") as f:
+BASE_DIR = Path(__file__).resolve().parent
+json_path = BASE_DIR / "json_input" / "scope-expert.json"
+
+with open(json_path, "r", encoding="utf-8") as f:
     scope_json = json.load(f)
 
 scope_text = "\n".join(item["response"] for item in scope_json)
@@ -142,7 +146,10 @@ except json.JSONDecodeError:
 
 # ========== Save Output ==========
 # Save JSON
-with open("json_input/domain-info.json", "w", encoding="utf-8") as f:
+BASE_DIR = Path(__file__).resolve().parent
+json_path = BASE_DIR / "json_input" / "domain-info.json"
+
+with open(json_path, "w", encoding="utf-8") as f:
     json.dump(domain_info, f, indent=2)
 
 # Convert to DataFrame with all values in one sheet
@@ -156,6 +163,10 @@ for key, values in domain_info.items():
     data[key] = padded
 
 df = pd.DataFrame(data)
-df.to_excel("output/domain_info.xlsx", sheet_name="DomainInfo", index=False)
+
+output_path = BASE_DIR / "output" / "domain_info.xlsx"
+output_path.parent.mkdir(exist_ok=True)
+
+df.to_excel(output_path, sheet_name="DomainInfo", index=False)
 
 print("\nExtracted domain info saved to domain-info.json and domain_info.xlsx")

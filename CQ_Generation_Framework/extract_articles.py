@@ -12,6 +12,7 @@ from newspaper import Article
 from serpapi import GoogleSearch
 from langdetect import detect
 from urllib.parse import urlparse
+from pathlib import Path
 from utils import load_environment_variables, initialize_clients
 
 load_environment_variables()
@@ -54,13 +55,18 @@ def is_english(text: str, min_chars: int = 300) -> bool:
         return True
 
 # ========== Load domain information from JSON ==========
+BASE_DIR = Path(__file__).resolve().parent
+
 def load_domain_config(
-        config_path: str = "json_input/domain-info.json") -> Dict:
+    config_path: str = "json_input/domain-info.json"
+) -> Dict:
+    json_path = BASE_DIR / config_path
+
     try:
-        with open(config_path, 'r', encoding='utf-8') as f:
+        with open(json_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        print(f"Error: {config_path} not found.")
+        print(f"Error: {json_path} not found.")
         return {}
 
 DOMAIN_CONFIG = load_domain_config()

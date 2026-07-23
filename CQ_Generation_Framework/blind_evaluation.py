@@ -3,6 +3,7 @@ import json
 from time import sleep
 from scipy import stats
 from utils import load_environment_variables, initialize_clients
+from pathlib import Path
 
 load_environment_variables()
 deployment_name, serpapi_api_key = initialize_clients()
@@ -14,7 +15,9 @@ print("=" * 70)
 print("LOADING DOMAIN INFORMATION")
 print("=" * 70)
 
-with open('json_input/domain_info_DFC.json', 'r') as f:
+BASE_DIR = Path(__file__).resolve().parent
+json_path = BASE_DIR / "json_input" / "scope-expert.json"
+with open(json_path, "r", encoding="utf-8") as f:
     domain_info = json.load(f)
 
 print(f"\nMain Domain: {domain_info['MAIN_DOMAIN_NAME']}")
