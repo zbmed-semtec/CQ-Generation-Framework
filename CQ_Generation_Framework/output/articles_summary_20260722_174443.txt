@@ -1,0 +1,190 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 30
+Total Input Tokens: 11404
+Generated on: 2026-07-22 17:44:44
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Technical feasibility of [18F]FET and [18F]FAZA PET guided radiotherapy in a F98 glioblastoma rat model - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-019-1290-4.pdf
+  Text Length: 50901 characters
+  Filter Keywords Found: 15
+
+Article 2:
+  Title: Phase I study of photodynamic therapy using talaporfin sodium and diode laser for local failure after chemoradiotherapy for esophageal cancer - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/1748-717X-7-113.pdf
+  Text Length: 33778 characters
+  Filter Keywords Found: 11
+
+Article 3:
+  Title: Reprogramming the tumour microenvironment by radiotherapy: implications for radiotherapy and immunotherapy combinations - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-020-01678-1.pdf
+  Text Length: 67092 characters
+  Filter Keywords Found: 13
+
+Article 4:
+  Title: BRAF mutation correlates with worse local–regional control following radiation therapy in patients with stage III melanoma - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-021-01903-5.pdf
+  Text Length: 43192 characters
+  Filter Keywords Found: 14
+
+Article 5:
+  Title: Recent advances in (chemo-)radiation therapy for rectal cancer: a comprehensive review - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-020-01695-0.pdf
+  Text Length: 147128 characters
+  Filter Keywords Found: 11
+
+Article 6:
+  Title: FLASH radiotherapy at a crossroads: a bibliometric perspective on progress and challenges - Discover Oncology
+  URL: https://link.springer.com/content/pdf/10.1007/s12672-025-03400-7.pdf
+  Text Length: 70711 characters
+  Filter Keywords Found: 16
+
+Article 7:
+  Title: Students’ learning behavior in digital education for radiation oncology - Strahlentherapie und Onkologie
+  URL: https://link.springer.com/content/pdf/10.1007/s00066-021-01858-2.pdf
+  Text Length: 64711 characters
+  Filter Keywords Found: 11
+
+Article 8:
+  Title: Preclinical investigations towards the first spacer gel application in prostate cancer treatment during particle therapy at HIT - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/1748-717X-8-134.pdf
+  Text Length: 57137 characters
+  Filter Keywords Found: 12
+
+Article 9:
+  Title: Stereotactic body radiation therapy (SBRT) for lung malignancies: preliminary toxicity results using a flattening filter-free linear accelerator operating at 2400 monitor units per minute - Radiation
+  URL: https://link.springer.com/content/pdf/10.1186/1748-717X-8-273.pdf
+  Text Length: 32017 characters
+  Filter Keywords Found: 15
+
+Article 10:
+  Title: In vitro study of combined cilengitide and radiation treatment in breast cancer cell lines - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/1748-717X-8-246.pdf
+  Text Length: 40403 characters
+  Filter Keywords Found: 15
+
+Article 11:
+  Title: Tumor treating fields (TTFields) delay DNA damage repair following radiation treatment of glioma cells - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-017-0941-6.pdf
+  Text Length: 48733 characters
+  Filter Keywords Found: 13
+
+Article 12:
+  Title: Comparative metabolomic analysis of human lung slices (hu-PCLS) exposed to either standard or FLASH protons: a pilot study - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-025-02714-8.pdf
+  Text Length: 49616 characters
+  Filter Keywords Found: 13
+
+Article 13:
+  Title: Local FLASH radiation exhibits a double-edged effect on the mouse immune system - Radiation Oncology
+  URL: https://link.springer.com/content/pdf/10.1186/s13014-026-02810-3.pdf
+  Text Length: 44820 characters
+  Filter Keywords Found: 15
+
+Article 14:
+  Title: Cell-free DNA and circulating tumor cell kinetics in a pre-clinical head and neck Cancer model undergoing radiation therapy - BMC Cancer
+  URL: https://link.springer.com/content/pdf/10.1186/s12885-021-08791-8.pdf
+  Text Length: 41840 characters
+  Filter Keywords Found: 16
+
+Article 15:
+  Title: Automated acute skin toxicity scoring in a mouse model through deep learning - Radiation and Environmental Biophysics
+  URL: https://link.springer.com/content/pdf/10.1007/s00411-024-01096-x.pdf
+  Text Length: 42317 characters
+  Filter Keywords Found: 16
+
+Article 16:
+  Title: The efficacy of mesenchymal stromal cell-derived therapies for acute respiratory distress syndrome—a meta-analysis of preclinical trials - Respiratory Research
+  URL: https://link.springer.com/content/pdf/10.1186/s12931-020-01574-y.pdf
+  Text Length: 45694 characters
+  Filter Keywords Found: 12
+
+Article 17:
+  Title: Effect and potential mechanism of photobiomodulation therapy on cognitive deficits in animal models of Alzheimer’s disease: a systematic review and meta-analysis - European Journal of Medical Research
+  URL: https://link.springer.com/content/pdf/10.1186/s40001-026-04057-w.pdf
+  Text Length: 87928 characters
+  Filter Keywords Found: 16
+
+Article 18:
+  Title: Collateral Supply in Preclinical Cerebral Stroke Models - Translational Stroke Research
+  URL: https://link.springer.com/content/pdf/10.1007/s12975-021-00969-3.pdf
+  Text Length: 69883 characters
+  Filter Keywords Found: 14
+
+Article 19:
+  Title: Patient-derived xenografts: a relevant preclinical model for drug development - Journal of Experimental & Clinical Cancer Research
+  URL: https://link.springer.com/content/pdf/10.1186/s13046-016-0462-4.pdf
+  Text Length: 43188 characters
+  Filter Keywords Found: 17
+
+Article 20:
+  Title: TCR-T cell therapy: current development approaches, preclinical evaluation, and perspectives on regulatory challenges - Journal of Translational Medicine
+  URL: https://link.springer.com/content/pdf/10.1186/s12967-024-05703-9.pdf
+  Text Length: 94724 characters
+  Filter Keywords Found: 19
+
+Article 21:
+  Title: Evolution of Preclinical Models for Glioblastoma Modelling and Drug Screening - Current Oncology Reports
+  URL: https://link.springer.com/content/pdf/10.1007/s11912-025-01672-4.pdf
+  Text Length: 106775 characters
+  Filter Keywords Found: 18
+
+Article 22:
+  Title: Clinical translation of stem cell therapy for spinal cord injury still premature: results from a single-arm meta-analysis based on 62 clinical trials - BMC Medicine
+  URL: https://link.springer.com/content/pdf/10.1186/s12916-022-02482-2.pdf
+  Text Length: 89390 characters
+  Filter Keywords Found: 15
+
+Article 23:
+  Title: Practical guidelines for rigor and reproducibility in preclinical and clinical studies on cardioprotection - Basic Research in Cardiology
+  URL: https://link.springer.com/content/pdf/10.1007/s00395-018-0696-8.pdf
+  Text Length: 422510 characters
+  Filter Keywords Found: 21
+
+Article 24:
+  Title: Stem cell therapy for vocal fold regeneration after scarring: a review of experimental approaches - Stem Cell Research & Therapy
+  URL: https://link.springer.com/content/pdf/10.1186/s13287-022-02853-9.pdf
+  Text Length: 80460 characters
+  Filter Keywords Found: 15
+
+Article 25:
+  Title: National Preclinical Sepsis Platform: developing a framework for accelerating innovation in Canadian sepsis research - Intensive Care Medicine Experimental
+  URL: https://link.springer.com/content/pdf/10.1186/s40635-020-00366-4.pdf
+  Text Length: 66447 characters
+  Filter Keywords Found: 19
+
+Article 26:
+  Title: Feline cognitive dysfunction as a model for Alzheimer’s disease in the research of CBD as a potential treatment—a narrative review - Journal of Cannabis Research
+  URL: https://link.springer.com/content/pdf/10.1186/s42238-020-00054-w.pdf
+  Text Length: 34958 characters
+  Filter Keywords Found: 15
+
+Article 27:
+  Title: The EurOPDX Data Portal: an open platform for patient-derived cancer xenograft data sharing and visualization - BMC Genomics
+  URL: https://link.springer.com/content/pdf/10.1186/s12864-022-08367-1.pdf
+  Text Length: 41274 characters
+  Filter Keywords Found: 17
+
+Article 28:
+  Title: Acute respiratory distress syndrome subphenotypes and therapy responsive traits among preclinical models: protocol for a systematic review and meta-analysis - Respiratory Research
+  URL: https://link.springer.com/content/pdf/10.1186/s12931-020-01337-9.pdf
+  Text Length: 50398 characters
+  Filter Keywords Found: 15
+
+Article 29:
+  Title: Results of the preclinical multicenter randomized controlled paclitaxel-induced neuropathy prevention replication study (PINPRICS) - BMC Research Notes
+  URL: https://link.springer.com/content/pdf/10.1186/s13104-025-07206-2.pdf
+  Text Length: 42490 characters
+  Filter Keywords Found: 15
+
+Article 30:
+  Title: The Abscopal Effect of Radiation Therapy: What Is It and How Can We Use It in Breast Cancer? - Current Breast Cancer Reports
+  URL: https://link.springer.com/content/pdf/10.1007/s12609-017-0234-y.pdf
+  Text Length: 35236 characters
+  Filter Keywords Found: 12
+

@@ -14,13 +14,13 @@
     "Knowledge Graphs",
     "FAIR Data Principles",
     "Biomedical Research",
-    "Data Annotation",
-    "Complex Queries",
     "Translational Research",
-    "Radiotherapy Studies",
+    "Complex Semantic Queries",
+    "Data Annotation",
     "Experimental Data",
-    "Data Sharing",
-    "Knowledge Discovery"
+    "Radiotherapy Studies",
+    "Observational Studies",
+    "Data Sharing"
   ],
   "FILTER_KEYWORDS": [
     "radiation",
@@ -30,24 +30,28 @@
     "experiments",
     "animal",
     "models",
+    "design",
+    "treatment",
+    "characteristics",
+    "observations",
+    "findings",
+    "outcomes",
     "data",
     "integration",
     "interoperability",
-    "semantics",
-    "research",
-    "biomedical",
-    "findings",
-    "outcomes",
-    "annotation",
-    "protocols",
-    "characteristics",
     "queries",
     "discovery",
-    "sharing",
+    "research",
+    "bioinformatics",
+    "ontology",
     "knowledge",
     "graphs",
     "FAIR",
-    "translational"
+    "translational",
+    "annotation",
+    "studies",
+    "laboratories",
+    "semantic"
   ],
   "MAIN_DOMAIN_WORDS": [
     "radiation",
@@ -56,13 +60,13 @@
   ],
   "COMPOUND_GENERAL_TERMS": [
     "Preclinical Research",
-    "Radiation Therapy"
+    "Radiation Treatment"
   ],
   "ONTOLOGY_COVERAGE_AREAS": [
     "Experimental Design",
-    "Treatment Outcomes",
-    "Subject Characteristics",
     "Data Annotation",
-    "Knowledge Integration"
+    "Outcome Measurement",
+    "Data Integration",
+    "Semantic Interoperability"
   ]
 }
