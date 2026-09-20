@@ -1,0 +1,250 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 30
+Total Input Tokens: 14618
+Generated on: 2026-08-25 17:47:41
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Predicting outcomes in radiation oncology—multifactorial decision support systems
+  URL: https://www.nature.com/articles/nrclinonc.2012.196.pdf
+  Source: OpenAlex
+  DOI: 10.1038/nrclinonc.2012.196
+  Text Length: 39539 characters
+  Filter Keywords Found: 15
+
+Article 2:
+  Title: Integrating Hyperthermia into Modern Radiation Oncology: What Evidence Is Necessary?
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2017.00132/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2017.00132
+  Text Length: 113481 characters
+  Filter Keywords Found: 15
+
+Article 3:
+  Title: Radiation-induced brain injury: A review
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2012.00073/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2012.00073
+  Text Length: 115879 characters
+  Filter Keywords Found: 15
+
+Article 4:
+  Title: Imaging Tumor Hypoxia to Advance Radiation Oncology
+  URL: https://doi.org/10.1089/ars.2013.5759
+  Source: OpenAlex
+  DOI: 10.1089/ars.2013.5759
+  Text Length: 14750 characters
+  Filter Keywords Found: 9
+
+Article 5:
+  Title: Nanoparticles for Radiation Therapy Enhancement: the Key Parameters
+  URL: https://www.thno.org/v05p1030.pdf
+  Source: OpenAlex
+  DOI: 10.7150/thno.11642
+  Text Length: 84104 characters
+  Filter Keywords Found: 15
+
+Article 6:
+  Title: Assessing Tumor Oxygenation for Predicting Outcome in Radiation Oncology: A Review of Studies Correlating Tumor Hypoxic Status and Outcome in the Preclinical and Clinical Settings
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2017.00010/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2017.00010
+  Text Length: 107302 characters
+  Filter Keywords Found: 16
+
+Article 7:
+  Title: DNA damage response signaling pathways and targets for radiotherapy sensitization in cancer
+  URL: https://www.nature.com/articles/s41392-020-0150-x.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41392-020-0150-x
+  Text Length: 211079 characters
+  Filter Keywords Found: 16
+
+Article 8:
+  Title: The Role of Radiation Oncology in Immuno-Oncology
+  URL: https://theoncologist.onlinelibrary.wiley.com/doi/pdfdirect/10.1634/theoncologist.2019-IO-S1-s04
+  Source: OpenAlex
+  DOI: 10.1634/theoncologist.2019-io-s1-s04
+  Text Length: 60721 characters
+  Filter Keywords Found: 13
+
+Article 9:
+  Title: Radiation effects on antitumor immune responses: current perspectives and challenges
+  URL: https://journals.sagepub.com/doi/pdf/10.1177/1758834017742575
+  Source: OpenAlex
+  DOI: 10.1177/1758834017742575
+  Text Length: 132946 characters
+  Filter Keywords Found: 14
+
+Article 10:
+  Title: Abscopal, immunological effects of radiotherapy: Narrowing the gap between clinical and preclinical experiences
+  URL: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/imr.12573
+  Source: OpenAlex
+  DOI: 10.1111/imr.12573
+  Text Length: 190954 characters
+  Filter Keywords Found: 16
+
+Article 11:
+  Title: The Time for Chronotherapy in Radiation Oncology
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2021.687672/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2021.687672
+  Text Length: 59868 characters
+  Filter Keywords Found: 13
+
+Article 12:
+  Title: Common Musculoskeletal Tumors of Childhood and Adolescence
+  URL: http://www.mayoclinicproceedings.org/article/S0025619612003011/pdf
+  Source: OpenAlex
+  DOI: 10.1016/j.mayocp.2012.01.015
+  Text Length: 69683 characters
+  Filter Keywords Found: 13
+
+Article 13:
+  Title: Reproducibility of preclinical animal research improves with heterogeneity of study samples
+  URL: https://doi.org/10.1371/journal.pbio.2003693
+  Source: OpenAlex
+  DOI: 10.1371/journal.pbio.2003693
+  Text Length: 22733 characters
+  Filter Keywords Found: 10
+
+Article 14:
+  Title: Standards and Methodological Rigor in Pulmonary Arterial Hypertension Preclinical and Translational Research
+  URL: https://doi.org/10.1161/circresaha.117.312579
+  Source: OpenAlex
+  DOI: 10.1161/circresaha.117.312579
+  Text Length: 19054 characters
+  Filter Keywords Found: 15
+
+Article 15:
+  Title: Patient-derived xenograft models in cancer therapy: technologies and applications
+  URL: https://www.nature.com/articles/s41392-023-01419-2.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41392-023-01419-2
+  Text Length: 161021 characters
+  Filter Keywords Found: 21
+
+Article 16:
+  Title: Targeting Macrophages in Cancer: From Bench to Bedside
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2018.00049/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2018.00049
+  Text Length: 109392 characters
+  Filter Keywords Found: 15
+
+Article 17:
+  Title: Atherosclerotic Plaque Destabilization
+  URL: https://www.ahajournals.org/doi/pdf/10.1161/CIRCRESAHA.114.302355
+  Source: OpenAlex
+  DOI: 10.1161/circresaha.114.302355
+  Text Length: 87837 characters
+  Filter Keywords Found: 11
+
+Article 18:
+  Title: Preclinical research: Make mouse studies work
+  URL: https://www.nature.com/articles/507423a.pdf
+  Source: OpenAlex
+  DOI: 10.1038/507423a
+  Text Length: 18903 characters
+  Filter Keywords Found: 8
+
+Article 19:
+  Title: A call for transparent reporting to optimize the predictive value of preclinical research
+  URL: https://www.nature.com/articles/nature11556.pdf
+  Source: OpenAlex
+  DOI: 10.1038/nature11556
+  Text Length: 37945 characters
+  Filter Keywords Found: 10
+
+Article 20:
+  Title: Zebrafish as an animal model for biomedical research
+  URL: https://www.nature.com/articles/s12276-021-00571-5.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s12276-021-00571-5
+  Text Length: 48123 characters
+  Filter Keywords Found: 8
+
+Article 21:
+  Title: Animal models of sepsis
+  URL: https://doi.org/10.4161/viru.26083
+  Source: OpenAlex
+  DOI: 10.4161/viru.26083
+  Text Length: 25663 characters
+  Filter Keywords Found: 9
+
+Article 22:
+  Title: Per- and Polyfluoroalkyl Substance Toxicity and Human Health Review: Current State of Knowledge and Strategies for Informing Future Research
+  URL: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/etc.4890
+  Source: OpenAlex
+  DOI: 10.1002/etc.4890
+  Text Length: 177178 characters
+  Filter Keywords Found: 16
+
+Article 23:
+  Title: Role of T lymphocytes in tumor response to radiotherapy
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2012.00095/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2012.00095
+  Text Length: 47115 characters
+  Filter Keywords Found: 14
+
+Article 24:
+  Title: The Tumor Radiobiology of SRS and SBRT: Are More Than the 5 Rs Involved?
+  URL: http://www.redjournal.org/article/S0360301613028605/pdf
+  Source: OpenAlex
+  DOI: 10.1016/j.ijrobp.2013.07.022
+  Text Length: 48253 characters
+  Filter Keywords Found: 11
+
+Article 25:
+  Title: Ultra-High Dose Rate (FLASH) Radiotherapy: Silver Bullet or Fool's Gold?
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2019.01563/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2019.01563
+  Text Length: 71937 characters
+  Filter Keywords Found: 13
+
+Article 26:
+  Title: Photodynamic therapy of cancer: An update
+  URL: https://onlinelibrary.wiley.com/doi/pdfdirect/10.3322/caac.20114
+  Source: OpenAlex
+  DOI: 10.3322/caac.20114
+  Text Length: 180530 characters
+  Filter Keywords Found: 17
+
+Article 27:
+  Title: Thyroid Hormones and Cancer: A Comprehensive Review of Preclinical and Clinical Studies
+  URL: https://www.frontiersin.org/articles/10.3389/fendo.2019.00059/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fendo.2019.00059
+  Text Length: 151966 characters
+  Filter Keywords Found: 14
+
+Article 28:
+  Title: The Promise of Combining Radiation Therapy With Immunotherapy
+  URL: http://www.redjournal.org/article/S0360301620310439/pdf
+  Source: OpenAlex
+  DOI: 10.1016/j.ijrobp.2020.04.023
+  Text Length: 56777 characters
+  Filter Keywords Found: 15
+
+Article 29:
+  Title: Radiotherapy and the Tumor Stroma: The Importance of Dose and Fractionation
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2014.00001/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2014.00001
+  Text Length: 86080 characters
+  Filter Keywords Found: 13
+
+Article 30:
+  Title: FLASH Radiotherapy: History and Future
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2021.644400/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2021.644400
+  Text Length: 34694 characters
+  Filter Keywords Found: 11
+

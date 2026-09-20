@@ -7,7 +7,7 @@ satisfy. However, eliciting high-quality competency questions typically requires
 This project presents an LLM-powered framework for competency question generation. The framework integrates structured domain expert input with the retrieval of scholarly literature from Springer.com and leverages large language models to generate, refine, filter, and cluster the questions. The proposed framework reduces the dependency on continuous expert involvement while maintaining high question quality.
 
 The framework has been developed using Python 3.13. It uses Azure OpenAI services, and the gpt-4o-mini model was selected for its optimal balance of performance and cost effectiveness in processing large volumes of text through multiple pipeline stages. Also,
-GPT-5 was utilized for Domain information extraction for higher precision. All API calls are configured with a low temperature setting to ensure deterministic and reproducible outputs across the ontology engineering pipeline: temperature=0.3 for the generative CQ creation step, and temperature=0.1 for more deterministic tasks like domain information extraction, CQ refinement, filtering,
+GPT-5 was utilized for Domain information extraction for higher precision. All API calls are configured with a low temperature setting to ensure deterministic and reproducible outputs across the ontology engineering pipeline: temperature=0.3 for the generative CQ creation step, and temperature=0.1 for more deterministic tasks like domain information extraction, CQ filtering and clustering.
 and clustering. 
 
 ## Usage
@@ -43,12 +43,7 @@ subsequent stages based on the most recent timestamp.
    - Input: `output/llm_input_springer_[datetime].xlsx` (latest)
    - Output: Appends `CQs` sheet to same Excel file
 
-4. **`refinement.py`**
-   - Purpose: Abstracts named entities in CQs to enhance reusability
-   - Input: `output/llm_input_springer_[datetime].xlsx` (latest)
-   - Output: `output/refined_cqs_springer_[datetime].xlsx`
-
-5. **`joint_filtering.py`**
+4. **`joint_filtering.py`**
    - Purpose: Removes redundancy, scores relevance, filters by 
      linguistic complexity
    - Input: `output/refined_cqs_springer_[datetime].xlsx` (latest)

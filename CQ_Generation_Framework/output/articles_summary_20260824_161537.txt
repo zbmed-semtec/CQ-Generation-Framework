@@ -1,0 +1,250 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 30
+Total Input Tokens: 16994
+Generated on: 2026-08-24 16:15:38
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Patient-derived xenograft models in cancer therapy: technologies and applications
+  URL: https://www.nature.com/articles/s41392-023-01419-2.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41392-023-01419-2
+  Text Length: 161021 characters
+  Filter Keywords Found: 18
+
+Article 2:
+  Title: Targeting Macrophages in Cancer: From Bench to Bedside
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2018.00049/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2018.00049
+  Text Length: 109392 characters
+  Filter Keywords Found: 13
+
+Article 3:
+  Title: Mesenchymal stem cells and immunomodulation: current status and future prospects
+  URL: https://www.nature.com/articles/cddis2015327.pdf
+  Source: OpenAlex
+  DOI: 10.1038/cddis.2015.327
+  Text Length: 80182 characters
+  Filter Keywords Found: 11
+
+Article 4:
+  Title: The Time for Chronotherapy in Radiation Oncology
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2021.687672/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2021.687672
+  Text Length: 59868 characters
+  Filter Keywords Found: 11
+
+Article 5:
+  Title: PDK4-dependent hypercatabolism and lactate production of senescent cells promotes cancer malignancy
+  URL: https://www.nature.com/articles/s42255-023-00912-w.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s42255-023-00912-w
+  Text Length: 170889 characters
+  Filter Keywords Found: 14
+
+Article 6:
+  Title: Radiation oncology in the era of precision medicine
+  URL: https://doi.org/10.1038/nrc.2016.18
+  Source: OpenAlex
+  DOI: 10.1038/nrc.2016.18
+  Text Length: 44401 characters
+  Filter Keywords Found: 14
+
+Article 7:
+  Title: Predicting outcomes in radiation oncology—multifactorial decision support systems
+  URL: https://www.nature.com/articles/nrclinonc.2012.196.pdf
+  Source: OpenAlex
+  DOI: 10.1038/nrclinonc.2012.196
+  Text Length: 39539 characters
+  Filter Keywords Found: 14
+
+Article 8:
+  Title: Integrating Hyperthermia into Modern Radiation Oncology: What Evidence Is Necessary?
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2017.00132/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2017.00132
+  Text Length: 113481 characters
+  Filter Keywords Found: 13
+
+Article 9:
+  Title: Radiation-induced brain injury: A review
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2012.00073/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2012.00073
+  Text Length: 115879 characters
+  Filter Keywords Found: 13
+
+Article 10:
+  Title: Nanoparticles for Radiation Therapy Enhancement: the Key Parameters
+  URL: https://www.thno.org/v05p1030.pdf
+  Source: OpenAlex
+  DOI: 10.7150/thno.11642
+  Text Length: 84104 characters
+  Filter Keywords Found: 13
+
+Article 11:
+  Title: Role of T lymphocytes in tumor response to radiotherapy
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2012.00095/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2012.00095
+  Text Length: 47115 characters
+  Filter Keywords Found: 12
+
+Article 12:
+  Title: Radiotherapy and the Tumor Stroma: The Importance of Dose and Fractionation
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2014.00001/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2014.00001
+  Text Length: 86080 characters
+  Filter Keywords Found: 12
+
+Article 13:
+  Title: FLASH Radiotherapy: History and Future
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2021.644400/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2021.644400
+  Text Length: 34694 characters
+  Filter Keywords Found: 9
+
+Article 14:
+  Title: Lung adenocarcinoma promotion by air pollutants
+  URL: https://doi.org/10.1038/s41586-023-05874-3
+  Source: OpenAlex
+  DOI: 10.1038/s41586-023-05874-3
+  Text Length: 12959 characters
+  Filter Keywords Found: 6
+
+Article 15:
+  Title: Effects of radiation on metastasis and tumor cell migration - Cellular and Molecular Life Sciences
+  URL: https://link.springer.com/content/pdf/10.1007/s00018-016-2210-5.pdf
+  Source: OpenAlex
+  DOI: 10.1007/s00018-016-2210-5
+  Text Length: 17478 characters
+  Filter Keywords Found: 5
+
+Article 16:
+  Title: The Role of Cancer Stem Cells in Radiation Resistance
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2020.00164/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2020.00164
+  Text Length: 81881 characters
+  Filter Keywords Found: 9
+
+Article 17:
+  Title: Multi-omics single-cell data integration and regulatory inference with graph-linked embedding
+  URL: https://www.nature.com/articles/s41587-022-01284-4.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41587-022-01284-4
+  Text Length: 100314 characters
+  Filter Keywords Found: 11
+
+Article 18:
+  Title: Artificial intelligence in neuro-oncology: advances and challenges in brain tumor diagnosis, prognosis, and precision treatment
+  URL: https://www.nature.com/articles/s41698-024-00575-0.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41698-024-00575-0
+  Text Length: 79622 characters
+  Filter Keywords Found: 17
+
+Article 19:
+  Title: Labeling for Big Data in radiation oncology: The Radiation Oncology Structures ontology
+  URL: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0191263&type=printable
+  Source: OpenAlex
+  DOI: 10.1371/journal.pone.0191263
+  Text Length: 36474 characters
+  Filter Keywords Found: 12
+
+Article 20:
+  Title: Bioinformatics for precision medicine in oncology: principles and application to the SHIVA clinical trial
+  URL: https://www.frontiersin.org/articles/10.3389/fgene.2014.00152/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fgene.2014.00152
+  Text Length: 81765 characters
+  Filter Keywords Found: 17
+
+Article 21:
+  Title: Network and Data Integration for Biomarker Signature Discovery via Network Smoothed T-Statistics
+  URL: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0073074&type=printable
+  Source: OpenAlex
+  DOI: 10.1371/journal.pone.0073074
+  Text Length: 45357 characters
+  Filter Keywords Found: 15
+
+Article 22:
+  Title: Connecting the dots in radiation oncology data: RadPlanBio use case
+  URL: https://ceur-ws.org/Vol-3939/short2.pdf
+  Source: OpenAlex
+  DOI: 10.5281/zenodo.20024274
+  Text Length: 21941 characters
+  Filter Keywords Found: 16
+
+Article 23:
+  Title: NCI-EVS: Building the Semantic Infrastructure to Support CDISC Data Standards and Real-World Data
+  URL: https://www.jscdm.org/article/id/134/download/pdf/
+  Source: OpenAlex
+  DOI: 10.47912/jscdm.134
+  Text Length: 55832 characters
+  Filter Keywords Found: 13
+
+Article 24:
+  Title: Modern Radiotherapy Concepts and the Impact of Radiation on Immune Activation
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2016.00141/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2016.00141
+  Text Length: 102308 characters
+  Filter Keywords Found: 14
+
+Article 25:
+  Title: Predicate Oriented Pattern Analysis for Biomedical Knowledge Discovery
+  URL: https://content.scirp.org/pdf/iim_2016053115330515.pdf
+  Source: OpenAlex
+  DOI: 10.4236/iim.2016.83006
+  Text Length: 59102 characters
+  Filter Keywords Found: 15
+
+Article 26:
+  Title: Current state and promise of user-centered design to harness explainable AI in clinical decision-support systems for patients with CNS tumors
+  URL: https://www.frontiersin.org/journals/radiology/articles/10.3389/fradi.2024.1433457/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fradi.2024.1433457
+  Text Length: 84868 characters
+  Filter Keywords Found: 17
+
+Article 27:
+  Title: DNA sequence analysis landscape: a comprehensive review of DNA sequence analysis task types, databases, datasets, word embedding methods, and language models
+  URL: https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1503229/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fmed.2025.1503229
+  Text Length: 317478 characters
+  Filter Keywords Found: 17
+
+Article 28:
+  Title: Integrating artificial intelligence into small molecule development for precision cancer immunomodulation therapy
+  URL: https://www.nature.com/articles/s44386-025-00029-y.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s44386-025-00029-y
+  Text Length: 156874 characters
+  Filter Keywords Found: 18
+
+Article 29:
+  Title: Building an intelligent diabetes Q&A system with knowledge graphs and large language models
+  URL: https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1540946/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fpubh.2025.1540946
+  Text Length: 84377 characters
+  Filter Keywords Found: 16
+
+Article 30:
+  Title: KGBR: A Domain-Specific Knowledge Graph for Bone Regeneration Research
+  URL: https://media.sciltp.com/articles/2603003277/2603003277.pdf
+  Source: OpenAlex
+  DOI: 10.53941/rmd.2026.100005
+  Text Length: 41307 characters
+  Filter Keywords Found: 18
+

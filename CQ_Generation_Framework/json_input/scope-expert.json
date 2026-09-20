@@ -1,18 +1,17 @@
 [
   {
     "question": "Describe the knowledge domain or subject area in two to three sentences.",
-    "response": "PTRO (Ontology for Preclinical Trials in Radiation Oncology) is a biomedical ontology that models knowledge related to preclinical radiation oncology experiments, particularly studies involving animal models. It provides a standardized semantic representation of experimental design, treatments, subject characteristics, observations, laboratory findings, and outcomes to support interoperable data integration, sharing, and analysis across preclinical radiotherapy studies."
+    "response": "PTRO (Ontology for Preclinical Trials in Radiation Oncology) covers the subject area of preclinical radiation oncology research, specifically, animal-model studies that test how radiation affects tumors and healthy tissue. It formally represents the full spectrum of data generated in these studies: animal demographics (species, strain, sex, age), interventions and procedures, clinical observations, laboratory measurements, and temporal/study-day information, structured according to the SEND data standard. The ontology reuses established biomedical vocabularies (ROO, NCIt, STY) where possible and introduces new terms only for preclinical-specific concepts that existing clinical ontologies don't cover."
   },
   {
     "question": "Name specific problems in the subject area to be addressed by the knowledge system.",
-    "response": "PTRO addresses heterogeneous representation of preclinical study data across laboratories, the lack of standardized terminology, limited semantic interoperability between datasets, difficulties in performing complex semantic queries and knowledge discovery, and the need to support FAIR (Findable, Accessible, Interoperable, and Reusable) data principles."
+    "response": "1. Heterogeneity and fragmentation: Preclinical radiation oncology data are complex and come from many different sources/formats, making integration and reuse difficult. 2. Lack of semantic depth in existing standards: Data standards like SEND provide structure but not the meaning-level detail needed for interoperable data sharing. 3. Gap in existing radiation oncology ontologies: Ontologies like ROO, ROS, and O3 were built for clinical contexts and don't cover preclinical-specific variables (species, strain, cohort descriptions)."
   },
   {
     "question": "Who is the intended audience for the knowledge system and who will work with it in the future?",
-    "response": "The intended audience includes radiation oncology researchers, biomedical data scientists, bioinformaticians, ontology and knowledge engineers, clinical and translational researchers, and developers of knowledge graphs and FAIR data infrastructures."
-  },
+    "response": "Preclinical radiation oncology researchers (the wet-lab scientists generating the data). Data stewards and bioinformaticians who need standardized, semantically rich representations of experimental data. Translational researchers who need to bridge preclinical and clinical datasets, Developers implementing FAIR data practices in animal-model research. Other institutions using SEND-formatted preclinical data (PTRO is openly licensed under CC-BY 4.0 and designed to be adopted/forked by other labs). Researchers who lack SPARQL or semantic web expertise but want to query the data directly, once the natural-language interface is in place."},
   {
     "question": "Describe some use cases of the knowledge system in short sentences.",
-    "response": "PTRO can be used to integrate preclinical radiation oncology datasets from multiple laboratories, annotate experimental data using standardized ontology concepts, build biomedical knowledge graphs, execute semantic queries over experimental data, support FAIRification of preclinical datasets, and enable translational research by linking preclinical and clinical data."
+    "response": "PTRO can be used to integrate preclinical radiation oncology datasets from multiple laboratories into a common semantic framework, annotate experimental data using standardized ontology concepts to improve consistency and interoperability, build biomedical knowledge graphs linking experimental data with established ontologies, execute SPARQL queries to identify experimental subjects with specific characteristics, support FAIRification of preclinical radiotherapy data for sharing and reuse, and enable downstream analytics and translational research by linking preclinical findings with clinical data."
   }
 ]

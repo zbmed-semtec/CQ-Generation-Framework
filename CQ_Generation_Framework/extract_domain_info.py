@@ -43,7 +43,7 @@ You are given domain expert responses to four questions regarding domain, end us
 From this, extract and return a JSON object with the following keys:
 
 1. "MAIN_DOMAIN_NAME" : a short title for domain in 5 to 10 words, representing the domain core area.  
-2. "TOPIC_TERMS": a list of 20 to 30 domain-relevant compound topic terms (two or three-word phrases) that can be used for searching articles in this domain.
+2. "TOPIC_TERMS": a list of 20 to 30 domain-relevant compound topic terms (two-word phrases) that can be used for searching articles in this domain.
 3. "FILTER_KEYWORDS": a list of 30 to 50 filter keywords directly relevant to the domain (single or short terms) that can be used for filtering articles.
 4. "MAIN_DOMAIN_WORDS": a list of 3 to 5 core (single) words directly relevant to the domain.
 5. "COMPOUND_GENERAL_TERMS": 2 core compound terms that are directly relevant to the domain and used to query articles in the domain.
@@ -116,7 +116,9 @@ Output:
     "Construction Defects"
   ],
   "ONTOLOGY_COVERAGE_AREAS": [
-    "Damage Analysis",
+    "Building Damage & Defects",
+    "Damage Assessment & Diagnosis",
+    "Causes & Causal Relationships",
     "Remediation Strategies",
     "Legal Implications",
     "Construction Standards",

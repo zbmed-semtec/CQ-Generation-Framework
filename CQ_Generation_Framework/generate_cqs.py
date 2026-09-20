@@ -60,81 +60,67 @@ def chat_call(
 
 # ========== Prompt ==========
 PROMPT_CQ = """
-You are a **Senior Ontology Engineer** with deep domain expertise 
-in **{MAIN_DOMAIN_NAME}**.
+You are a **Senior Ontology Engineer** with domain expertise in **{MAIN_DOMAIN_NAME}**.
 
-Your task is to generate Competency Questions (CQs) that will guide 
-ontology development. You combine domain knowledge with ontological 
-thinking to create questions that are:
+Your task is to generate Competency Questions (CQs) that will guide ontology development. You combine domain knowledge with ontological thinking to create questions that are:
 - Practically relevant to domain practitioners
 - Technically implementable in an ontology
 - Aligned with ontology engineering best practices
 
-Below are **real excerpts** from articles related to 
-**{MAIN_DOMAIN_NAME}**:
+Below are **real excerpts** from articles related to **{MAIN_DOMAIN_NAME}**:
 {payload}
 
-Based on these articles, generate competency questions (CQs) suitable 
-for ONTOLOGY DESIGN in the following domain:
+Based on these articles, generate competency questions (CQs) suitable for ONTOLOGY DESIGN in the following domain:
 {scope_text}
 
-Focus on questions that help define:
-- Classes and hierarchies
-- Properties and relationships  
-- Data structures and taxonomies
-- Domain scope and boundaries
-
-Note: Avoid "how" and "why" questions. Instead ask questions with 
-"What", "Which", "What [entities]..., "What are...", "What is...", 
-"What types", "What categories", "What properties", and 
-"What relationships".
-
-I'll give you examples of BAD CQs and GOOD CQs for ontology 
-development. Generate CQs following the GOOD pattern:
-
-BAD: "How does sleep quality affect cognitive function?"
-GOOD: "What types of sleep quality measurements are collected?"
-
-BAD: "How do construction practices contribute to risk?"  
-GOOD: "What categories of construction practices affect building risk?"
-
-BAD: "How do assessments correlate with diagnoses?"
-GOOD: "What relationships exist between assessments and diagnoses?"
-
-BAD: "How does building age influence vulnerability?" 
-GOOD: "What properties describe building vulnerability factors?"
-
-GOOD: "What criteria define mild vs. moderate cognitive impairment?"
-GOOD: "What components constitute a comprehensive neuropsychological 
-assessment?"
+Note: Avoid "how" and "why" questions. Prefer "what", "which" and Binary questions.
 
 Now your task is to:
-1. Generate at least 80 Competency Questions (CQs) from the provided 
-   content only.  
-   - **Do not use your general knowledge**. Only base your competency 
-     questions on the given text snippets.   
+1. Generate at least 80 Competency Questions (CQs) from the provided content only.  
+   - **Do not use your general knowledge**. Only base your competency questions on the given text snippets.   
 
 2. The CQs must align with the following **Ontology Coverage Areas**:  
    **{ONTOLOGY_COVERAGE_AREAS}** 
-   CRITICAL: Ensure CQs diversity. Generate questions covering all 
-   coverage areas.
+   For EACH CQ, ensure it is clearly attributable to at least one coverage area — avoid CQs that are only tangentially or abstractly related. When generating CQs 
+   for a coverage area, ground them in concrete data elements mentioned in the source excerpts (e.g., specific measurements, procedures, or observations), not 
+   general statements about the area.
 
 3. Each CQ must be:  
    - **Domain-relevant**: CQs must be in the domain.   
-   - **Clear and precise**: CQs should be clear and understandable 
-     for all stakeholders.  
-   - **Simple and ontology-driven**: Aiming to define the scope and 
-     structure of the knowledge base rather than answer complex or 
-     analytical questions.
-   - **Atomic**: An "atomic" Competency Question expresses a single, 
-     indivisible information requirement, free of compound concepts 
-     that can be logically split.
+   - **Clear and precise**: CQs should be clear and understandable for all stakeholders.  
+   - **Simple and ontology-driven**: Aiming to define the scope and structure of the knowledge base rather than answer complex or analytical questions.
+   - **Atomic**: An "atomic" Competency Question expresses a single, indivisible information requirement, free of compound concepts that can be logically split.
 
-4. Output format:  
+4. Prioritize GRANULAR, attribute-level CQs over relational, thematic, or analytical questions. 
+   A granular CQ asks about a single, specific data field or property that an ontology instance would hold, rather than asking about categories, types, or relationships.
+
+   I'll give you examples of BAD CQs and GOOD CQs for ontology development. Generate CQs following the GOOD pattern:
+
+    BAD (relational, multi-concept): "What relationships exist between treatment dose and toxicity outcomes?"
+    GOOD (granular, single-attribute): "What is the dose unit used for treatment administration?"
+
+    BAD (categorical/abstract): "What types of laboratory measurements are recorded?"
+    GOOD (granular, single-attribute): "What is the anatomical region of the collected specimen?"
+
+    BAD (relational): "What relationships exist between body weight trends and treatment response?"
+    GOOD (granular): "What is the body weight result recorded for the subject?"
+
+    BAD (categorical): "What types of demographic criteria are used for cohort selection?"
+    GOOD (granular): "What is the sex of the subject?"
+
+    BAD (thematic): "What types of clinical observations are recorded during trials?"
+    GOOD (granular): "What is the death diagnosis result category for the subject?"
+
+    BAD (relational): "What connections exist between observed symptoms and treatment timing?"
+    GOOD (granular): "What study day did the subject's death occur?"
+
+5. Exclude questions about research methodology, data sharing practices, publication standards, generalizability, or study design considerations. Focus exclusively on 
+   the DOMAIN CONTENT (entities, attributes, and relationships) that the ontology must represent — not on how research about that content is conducted or reported.
+
+6. Output format:  
    - One CQ per line, numbered sequentially  
    - Avoid duplication of meaning (no semantic redundancies)  
 """
-
 
 # ========== Load snippets ==========
 def load_latest_snippets() -> tuple[pd.DataFrame, Path]:

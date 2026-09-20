@@ -1,0 +1,28 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 3
+Total Input Tokens: 1372
+Generated on: 2026-08-20 15:00:19
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Optimizing tumor immune response through combination of radiation and immunotherapy - Medical Oncology
+  URL: https://scholarworks.aub.edu.lb/bitstreams/cdeaac78-0130-42cc-94ba-181858526f95/download
+  Text Length: 68296 characters
+  Filter Keywords Found: 9
+
+Article 2:
+  Title: Dose-dependent response of tumor vasculature to radiation therapy in combination with Sunitinib depicted by three-dimensional high-frequency power Doppler ultrasound - Angiogenesis
+  URL: https://ultrasoundandmriforcancertherapy.ca/wp-content/uploads/2017/03/2013-6..pdf
+  Text Length: 52762 characters
+  Filter Keywords Found: 9
+
+Article 3:
+  Title: Integrating Functional MRI Information into Radiotherapy Planning of CNS Tumors-Early Experiences - Pathology & Oncology Research
+  URL: https://www.por-journal.com/articles/10.1007/s12253-010-9298-y/pdf
+  Text Length: 34720 characters
+  Filter Keywords Found: 7
+

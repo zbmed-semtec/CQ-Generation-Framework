@@ -1,0 +1,46 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 6
+Total Input Tokens: 2607
+Generated on: 2026-08-20 15:38:39
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Optimizing tumor immune response through combination of radiation and immunotherapy - Medical Oncology
+  URL: https://scholarworks.aub.edu.lb/bitstreams/cdeaac78-0130-42cc-94ba-181858526f95/download
+  Text Length: 68296 characters
+  Filter Keywords Found: 11
+
+Article 2:
+  Title: Dose-dependent response of tumor vasculature to radiation therapy in combination with Sunitinib depicted by three-dimensional high-frequency power Doppler ultrasound - Angiogenesis
+  URL: https://ultrasoundandmriforcancertherapy.ca/wp-content/uploads/2017/03/2013-6..pdf
+  Text Length: 52762 characters
+  Filter Keywords Found: 12
+
+Article 3:
+  Title: Why imaging data alone is not enough: AI-based integration of imaging, omics, and clinical data - European Journal of Nuclear Medicine and Molecular Imaging
+  URL: https://www.aholzinger.at/wordpress/wp-content/uploads/2019/12/Holzinger2019_Article_WhyImagingDataAloneIsNotEnough.pdf
+  Text Length: 57773 characters
+  Filter Keywords Found: 20
+
+Article 4:
+  Title: Geant4 simulations of soft proton scattering in X-ray optics - Experimental Astronomy
+  URL: https://arxiv.org/pdf/1707.02221
+  Text Length: 39303 characters
+  Filter Keywords Found: 9
+
+Article 5:
+  Title: Radiotherapy-induced xerostomia, pre-clinical promise of LMS-611 - Supportive Care in Cancer
+  URL: https://eprints.gla.ac.uk/115646/1/115646.pdf
+  Text Length: 39478 characters
+  Filter Keywords Found: 12
+
+Article 6:
+  Title: Efficient Large Scale Medical Image Dataset Preparation for Machine Learning Applications
+  URL: https://arxiv.org/pdf/2309.17285
+  Text Length: 24811 characters
+  Filter Keywords Found: 12
+

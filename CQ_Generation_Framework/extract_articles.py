@@ -43,7 +43,7 @@ def normalize_paragraphs(text: str) -> list[str]:
 
 # ========== Domain config ==========
 PUBLISHER_SITES = ["site:springer.com"]
-APPROVED_DOMAINS = ["springer.com"]
+# APPROVED_DOMAINS = ["springer.com"]
 
 def is_english(text: str, min_chars: int = 300) -> bool:
     try:
@@ -184,7 +184,7 @@ def extract_pdf_text(pdf_bytes: bytes) -> str:
         print(f"[x] PDF parse failed: {e}")
         return ""
 
-ALLOW_HTML_FALLBACK = False
+ALLOW_HTML_FALLBACK = True
 
 def extract_article_text_from_url(url: str) -> Tuple[str, str]:
     content, ctype = try_download(url)
@@ -252,7 +252,7 @@ def fetch_fulltext_articles(required_count: int = 30) -> List[Dict]:
                         if m:
                             year = int(m.group(0))
                             break
-                if year and year < current_year - 15:
+                if year and year < current_year - 25:
                     print(
                         f"[i] Skipped old article ({year}): "
                         f"{r.get('title')}")
@@ -270,10 +270,10 @@ def fetch_fulltext_articles(required_count: int = 30) -> List[Dict]:
                 if not target_url or target_url in seen_urls:
                     continue
 
-                domain = urlparse(target_url).netloc.lower()
-                if not any(
-                        domain.endswith(a) for a in APPROVED_DOMAINS):
-                    continue
+                # domain = urlparse(target_url).netloc.lower()
+                # if not any(
+                #         domain.endswith(a) for a in APPROVED_DOMAINS):
+                #     continue
                 if "scopus.com" in target_url:
                     continue
 

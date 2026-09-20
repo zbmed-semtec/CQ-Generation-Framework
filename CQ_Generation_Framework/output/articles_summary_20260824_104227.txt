@@ -1,0 +1,90 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 10
+Total Input Tokens: 4821
+Generated on: 2026-08-24 10:42:28
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Predicting outcomes in radiation oncology—multifactorial decision support systems
+  URL: https://www.nature.com/articles/nrclinonc.2012.196.pdf
+  Source: OpenAlex
+  DOI: 10.1038/nrclinonc.2012.196
+  Text Length: 39539 characters
+  Filter Keywords Found: 14
+
+Article 2:
+  Title: Characterization of Pharmacologic and Pharmacokinetic Properties of CCX168, a Potent and Selective Orally Administered Complement 5a Receptor Inhibitor, Based on Preclinical Evaluation and Randomized Phase 1 Clinical Study
+  URL: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0164646&type=printable
+  Source: OpenAlex
+  DOI: 10.1371/journal.pone.0164646
+  Text Length: 55782 characters
+  Filter Keywords Found: 11
+
+Article 3:
+  Title: The Open Empirical Cycle for Hypothesis Evaluation in Psychology
+  URL: https://open.lnu.se/index.php/metapsychology/article/download/3963/4317
+  Source: OpenAlex
+  DOI: 10.15626/mp.2023.3963
+  Text Length: 54964 characters
+  Filter Keywords Found: 9
+
+Article 4:
+  Title: Biobanks and data interoperability in Latin America: engendering high-quality evidence for the global research ecosystem
+  URL: https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1481891/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fmed.2024.1481891
+  Text Length: 71469 characters
+  Filter Keywords Found: 17
+
+Article 5:
+  Title: Tackling the translational challenges of multi-omics research in the realm of European personalised medicine: A workshop report
+  URL: https://www.frontiersin.org/articles/10.3389/fmolb.2022.974799/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fmolb.2022.974799
+  Text Length: 54562 characters
+  Filter Keywords Found: 18
+
+Article 6:
+  Title: Synergizing Big Data and Biotechnology for Innovation in Healthcare, Pharmaceutical Development, and Fungal Research
+  URL: https://al-kindipublisher.com/index.php/ijbpcs/article/download/10341/9074
+  Source: OpenAlex
+  DOI: 10.32996/ijbpcs.2020.2.2.4
+  Text Length: 52785 characters
+  Filter Keywords Found: 19
+
+Article 7:
+  Title: FAIR human neuroscientific data sharing to advance AI driven research and applications: Legal frameworks and missing metadata standards
+  URL: https://doi.org/10.3389/fgene.2023.1086802
+  Source: OpenAlex
+  DOI: 10.3389/fgene.2023.1086802
+  Text Length: 73020 characters
+  Filter Keywords Found: 11
+
+Article 8:
+  Title: Making Sense of the Epigenome Using Data Integration Approaches
+  URL: https://www.frontiersin.org/articles/10.3389/fphar.2019.00126/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fphar.2019.00126
+  Text Length: 101561 characters
+  Filter Keywords Found: 17
+
+Article 9:
+  Title: Translational science: Newly emerging science in biology and medicine — Lessons from translational research on the natriuretic peptide family and leptin —
+  URL: https://www.jstage.jst.go.jp/article/pjab/95/9/95_PJA9509B-03/_pdf
+  Source: OpenAlex
+  DOI: 10.2183/pjab.95.037
+  Text Length: 122362 characters
+  Filter Keywords Found: 14
+
+Article 10:
+  Title: My cells, my model: immune-competent autologous organ-on-chip systems as a new paradigm in precision medicine
+  URL: https://public-pages-files-2025.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1712796/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fimmu.2025.1712796
+  Text Length: 147880 characters
+  Filter Keywords Found: 20
+

@@ -4,9 +4,8 @@ from pathlib import Path
 
 SCRIPTS = [
     "extract_domain_info.py",
-    "extract_articles.py",
+    "extract_articles_openalex.py",
     "generate_cqs.py",
-    "refinement.py",
     "joint_filtering.py",
 ]
 

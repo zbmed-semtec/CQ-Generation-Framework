@@ -57,7 +57,7 @@ scope_text = "\n".join(all_items)
 
 # ========== Normalize Relevance Score ==========
 def normalize_relevance(relevance: int) -> float:
-    """Map relevance (1–4) to a custom 0–1 scale with more weight on 3 and 4."""
+    """Map relevance (1-4) to a custom 0-1 scale with more weight on 3 and 4."""
     if relevance == 1:
         return 0.0
     elif relevance == 2:
@@ -129,23 +129,23 @@ def get_relevance_score(cq: str) -> int:
 Your task is to determine whether a given competency question (CQ) is relevant to the domain of this ontology. 
 
 Rate the following competency question (CQ) on a 4-point Likert scale for domain relevance:
-(4) Explicitly matches requirements of the ontology.
-(3) Implicit but clearly inferable requirement necessary for ontology goals.
-(2) Only tangentially related — loosely connected but not necessary for ontology goals.
-(1) Irrelevant — not expressed, not inferable, and not useful for this ontology.
+(4) Explicitly matches requirements of the metadata schema.
+(3) Implicit but clearly inferable requirement necessary for metadata schema goals.
+(2) Only tangentially related — loosely connected but not necessary for schema goals.
+(1) Irrelevant — not expressed, not inferable, and not useful for this schema.
 
 CQ: "{cq}"
 
 Answer only with a single number: 1, 2, 3, or 4.
 
-Be strict: If the question is not clearly useful for the ontology scope, score it 1. Do not hesitate to give a score of 1 when in doubt.
+Be strict: If the question is not clearly useful for the schema scope, score it 1. Do not hesitate to give a score of 1 when in doubt.
 
 """
     try:
         response = openai.chat.completions.create(
             model=deployment_name,
             messages=[
-                {"role": "system", "content": "You are a helpful ontology engineering assistant."},
+                {"role": "system", "content": "You are a helpful metadata schema development assistant."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0,
@@ -379,9 +379,8 @@ def filter_cqs(input_file: str, output_file: str, renumber_sequential: bool = Fa
     start_time = time.time()
     df = pd.read_excel(input_file)
 
-    # Keep a dataframe of rows that actually have an Abstracted CQ, but preserve original row index in column 'orig_row'
-    non_null_df = df[df["Abstracted CQ"].notna()].reset_index().rename(columns={"index": "orig_row"})
-    original_questions = non_null_df["Abstracted CQ"].tolist()
+    non_null_df = df[df["CQ"].notna()].reset_index().rename(columns={"index": "orig_row"})
+    original_questions = non_null_df["CQ"].tolist()
 
     print(f"Starting with {len(original_questions)} questions (non-null)")
 
@@ -393,7 +392,7 @@ def filter_cqs(input_file: str, output_file: str, renumber_sequential: bool = Fa
     # Build a DataFrame of the non-redundant rows WITH their original row numbers preserved
     non_redundant_df = non_null_df.iloc[kept_positions].reset_index(drop=True)
 
-    non_redundant_questions = non_redundant_df["Abstracted CQ"].tolist()
+    non_redundant_questions = non_redundant_df["CQ"].tolist()
     print(f"After redundancy removal: {len(non_redundant_questions)} questions kept")
 
     # Step 2: Calculate relevance scores for non-redundant questions
@@ -416,7 +415,7 @@ def filter_cqs(input_file: str, output_file: str, renumber_sequential: bool = Fa
     results = []
     for i, row in non_redundant_df.iterrows():
         orig_row_num = int(row["orig_row"])  # original df row index (0-based)
-        cq = row["Abstracted CQ"]
+        cq = row["CQ"]
         relevance = relevance_scores[i]
         complexity_score = complexity_scores[i]
 
@@ -480,25 +479,25 @@ def filter_cqs(input_file: str, output_file: str, renumber_sequential: bool = Fa
 
 if __name__ == "__main__":
     output_dir = Path(__file__).resolve().parent / "output"
-    refined_files = list(output_dir.glob("refined_cqs_springer_*.xlsx"))
+    cqs_files = list(output_dir.glob("llm_input_springer_*.xlsx"))
 
-    if not refined_files:
-        raise FileNotFoundError("No matching refined_cqs_springer_*.xlsx files found in output/")
+    if not cqs_files:
+        raise FileNotFoundError("No matching llm_input_springer_*.xlsx files found in output/")
 
     # Extract timestamp from filenames and pick the latest
     def extract_timestamp(f: Path) -> datetime:
-        # filename pattern: refined_cqs_springer_YYYYMMDD_HHMMSS.xlsx
-        ts_str = f.stem.replace("refined_cqs_springer_", "")
+        # filename pattern: llm_input_springer_YYYYMMDD_HHMMSS.xlsx
+        ts_str = f.stem.replace("llm_input_springer_", "")
         return datetime.strptime(ts_str, "%Y%m%d_%H%M%S")
 
-    latest_file = max(refined_files, key=extract_timestamp)
+    latest_file = max(cqs_files, key=extract_timestamp)
     input_file = latest_file
 
     # Create output filename with same timestamp
-    timestamp_str = latest_file.stem.replace("refined_cqs_springer_", "")
+    timestamp_str = latest_file.stem.replace("llm_input_springer_", "")
     output_file = output_dir / f"joint_filtered_cqs_{timestamp_str}.xlsx"
 
-    print(f"Using latest refined file: {input_file.name}")
+    print(f"Using latest cqs file: {input_file.name}")
     print(f"Output file will be: {output_file.name}")
 
     filter_cqs(str(input_file), str(output_file))

@@ -1,0 +1,250 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 30
+Total Input Tokens: 16673
+Generated on: 2026-08-24 14:22:27
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Reproducibility of preclinical animal research improves with heterogeneity of study samples
+  URL: https://doi.org/10.1371/journal.pbio.2003693
+  Source: OpenAlex
+  DOI: 10.1371/journal.pbio.2003693
+  Text Length: 22733 characters
+  Filter Keywords Found: 9
+
+Article 2:
+  Title: Patient-derived xenograft models in cancer therapy: technologies and applications
+  URL: https://www.nature.com/articles/s41392-023-01419-2.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41392-023-01419-2
+  Text Length: 161021 characters
+  Filter Keywords Found: 18
+
+Article 3:
+  Title: Targeting Macrophages in Cancer: From Bench to Bedside
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2018.00049/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2018.00049
+  Text Length: 109392 characters
+  Filter Keywords Found: 12
+
+Article 4:
+  Title: Predicting outcomes in radiation oncology—multifactorial decision support systems
+  URL: https://www.nature.com/articles/nrclinonc.2012.196.pdf
+  Source: OpenAlex
+  DOI: 10.1038/nrclinonc.2012.196
+  Text Length: 39539 characters
+  Filter Keywords Found: 13
+
+Article 5:
+  Title: Integrating Hyperthermia into Modern Radiation Oncology: What Evidence Is Necessary?
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2017.00132/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2017.00132
+  Text Length: 113481 characters
+  Filter Keywords Found: 13
+
+Article 6:
+  Title: Radiation-induced brain injury: A review
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2012.00073/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2012.00073
+  Text Length: 115879 characters
+  Filter Keywords Found: 12
+
+Article 7:
+  Title: Nanoparticles for Radiation Therapy Enhancement: the Key Parameters
+  URL: https://www.thno.org/v05p1030.pdf
+  Source: OpenAlex
+  DOI: 10.7150/thno.11642
+  Text Length: 84104 characters
+  Filter Keywords Found: 13
+
+Article 8:
+  Title: Effects of radiation on metastasis and tumor cell migration - Cellular and Molecular Life Sciences
+  URL: https://link.springer.com/content/pdf/10.1007/s00018-016-2210-5.pdf
+  Source: OpenAlex
+  DOI: 10.1007/s00018-016-2210-5
+  Text Length: 17478 characters
+  Filter Keywords Found: 5
+
+Article 9:
+  Title: Assessing Tumor Oxygenation for Predicting Outcome in Radiation Oncology: A Review of Studies Correlating Tumor Hypoxic Status and Outcome in the Preclinical and Clinical Settings
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2017.00010/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2017.00010
+  Text Length: 107302 characters
+  Filter Keywords Found: 13
+
+Article 10:
+  Title: The Time for Chronotherapy in Radiation Oncology
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2021.687672/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2021.687672
+  Text Length: 59868 characters
+  Filter Keywords Found: 11
+
+Article 11:
+  Title: A call for transparent reporting to optimize the predictive value of preclinical research
+  URL: https://www.nature.com/articles/nature11556.pdf
+  Source: OpenAlex
+  DOI: 10.1038/nature11556
+  Text Length: 37945 characters
+  Filter Keywords Found: 9
+
+Article 12:
+  Title: Role of T lymphocytes in tumor response to radiotherapy
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2012.00095/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2012.00095
+  Text Length: 47115 characters
+  Filter Keywords Found: 11
+
+Article 13:
+  Title: Ultra-High Dose Rate (FLASH) Radiotherapy: Silver Bullet or Fool's Gold?
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2019.01563/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2019.01563
+  Text Length: 71937 characters
+  Filter Keywords Found: 12
+
+Article 14:
+  Title: Thyroid Hormones and Cancer: A Comprehensive Review of Preclinical and Clinical Studies
+  URL: https://www.frontiersin.org/articles/10.3389/fendo.2019.00059/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fendo.2019.00059
+  Text Length: 151966 characters
+  Filter Keywords Found: 14
+
+Article 15:
+  Title: Radiotherapy and the Tumor Stroma: The Importance of Dose and Fractionation
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2014.00001/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2014.00001
+  Text Length: 86080 characters
+  Filter Keywords Found: 13
+
+Article 16:
+  Title: FLASH Radiotherapy: History and Future
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2021.644400/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2021.644400
+  Text Length: 34694 characters
+  Filter Keywords Found: 9
+
+Article 17:
+  Title: Lung adenocarcinoma promotion by air pollutants
+  URL: https://doi.org/10.1038/s41586-023-05874-3
+  Source: OpenAlex
+  DOI: 10.1038/s41586-023-05874-3
+  Text Length: 12959 characters
+  Filter Keywords Found: 6
+
+Article 18:
+  Title: FLASH radiotherapy: an emerging approach in radiation therapy
+  URL: https://journals.viamedica.pl/rpor/article/download/RPOR.a2022.0038/66781
+  Source: OpenAlex
+  DOI: 10.5603/rpor.a2022.0038
+  Text Length: 39298 characters
+  Filter Keywords Found: 10
+
+Article 19:
+  Title: Exploring treatment options in cancer: tumor treatment strategies
+  URL: https://doi.org/10.1038/s41392-024-01856-7
+  Source: OpenAlex
+  DOI: 10.1038/s41392-024-01856-7
+  Text Length: 27964 characters
+  Filter Keywords Found: 9
+
+Article 20:
+  Title: Radiation-induced tumor immune microenvironments and potential targets for combination therapy
+  URL: https://www.nature.com/articles/s41392-023-01462-z.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41392-023-01462-z
+  Text Length: 140371 characters
+  Filter Keywords Found: 11
+
+Article 21:
+  Title: Computational Approaches in Preclinical Studies on Drug Discovery and Development
+  URL: https://www.frontiersin.org/articles/10.3389/fchem.2020.00726/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fchem.2020.00726
+  Text Length: 177240 characters
+  Filter Keywords Found: 11
+
+Article 22:
+  Title: Topological data analysis for discovery in preclinical spinal cord injury and traumatic brain injury
+  URL: https://www.nature.com/articles/ncomms9581.pdf
+  Source: OpenAlex
+  DOI: 10.1038/ncomms9581
+  Text Length: 84593 characters
+  Filter Keywords Found: 14
+
+Article 23:
+  Title: The Role of Cancer Stem Cells in Radiation Resistance
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2020.00164/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2020.00164
+  Text Length: 81881 characters
+  Filter Keywords Found: 8
+
+Article 24:
+  Title: A meta-analysis of the abscopal effect in preclinical models: Is the biologically effective dose a relevant physical trigger?
+  URL: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0171559&type=printable
+  Source: OpenAlex
+  DOI: 10.1371/journal.pone.0171559
+  Text Length: 57632 characters
+  Filter Keywords Found: 12
+
+Article 25:
+  Title: Threats to Validity in the Design and Conduct of Preclinical Efficacy Studies: A Systematic Review of Guidelines for In Vivo Animal Experiments
+  URL: https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1001489&type=printable
+  Source: OpenAlex
+  DOI: 10.1371/journal.pmed.1001489
+  Text Length: 75382 characters
+  Filter Keywords Found: 14
+
+Article 26:
+  Title: Making Sense of the Epigenome Using Data Integration Approaches
+  URL: https://www.frontiersin.org/articles/10.3389/fphar.2019.00126/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fphar.2019.00126
+  Text Length: 101561 characters
+  Filter Keywords Found: 16
+
+Article 27:
+  Title: Quality of Reporting and Adherence to ARRIVE Guidelines in Animal Studies for Chagas Disease Preclinical Drug Research: A Systematic Review
+  URL: https://journals.plos.org/plosntds/article/file?id=10.1371/journal.pntd.0004194&type=printable
+  Source: OpenAlex
+  DOI: 10.1371/journal.pntd.0004194
+  Text Length: 51460 characters
+  Filter Keywords Found: 11
+
+Article 28:
+  Title: Systematic Drug Repositioning Based on Clinical Side-Effects
+  URL: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0028025&type=printable
+  Source: OpenAlex
+  DOI: 10.1371/journal.pone.0028025
+  Text Length: 47587 characters
+  Filter Keywords Found: 11
+
+Article 29:
+  Title: Enabling Web-scale data integration in biomedicine through Linked Open Data
+  URL: https://www.nature.com/articles/s41746-019-0162-5.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41746-019-0162-5
+  Text Length: 91641 characters
+  Filter Keywords Found: 19
+
+Article 30:
+  Title: Multi-omics in immunotherapy research for HNSCC: present situation and future perspectives
+  URL: https://doi.org/10.1038/s41698-025-00886-w
+  Source: OpenAlex
+  DOI: 10.1038/s41698-025-00886-w
+  Text Length: 22892 characters
+  Filter Keywords Found: 9
+

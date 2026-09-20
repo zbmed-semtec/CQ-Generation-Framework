@@ -1,0 +1,194 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 23
+Total Input Tokens: 9940
+Generated on: 2026-08-24 11:38:30
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Patient-derived xenograft models in cancer therapy: technologies and applications
+  URL: https://www.nature.com/articles/s41392-023-01419-2.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41392-023-01419-2
+  Text Length: 161021 characters
+  Filter Keywords Found: 19
+
+Article 2:
+  Title: Targeting Macrophages in Cancer: From Bench to Bedside
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2018.00049/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2018.00049
+  Text Length: 109392 characters
+  Filter Keywords Found: 14
+
+Article 3:
+  Title: Radiation oncology in the era of precision medicine
+  URL: https://doi.org/10.1038/nrc.2016.18
+  Source: OpenAlex
+  DOI: 10.1038/nrc.2016.18
+  Text Length: 44401 characters
+  Filter Keywords Found: 15
+
+Article 4:
+  Title: Predicting outcomes in radiation oncology—multifactorial decision support systems
+  URL: https://www.nature.com/articles/nrclinonc.2012.196.pdf
+  Source: OpenAlex
+  DOI: 10.1038/nrclinonc.2012.196
+  Text Length: 39539 characters
+  Filter Keywords Found: 15
+
+Article 5:
+  Title: Integrating Hyperthermia into Modern Radiation Oncology: What Evidence Is Necessary?
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2017.00132/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2017.00132
+  Text Length: 113481 characters
+  Filter Keywords Found: 14
+
+Article 6:
+  Title: MRI-guided Radiation Therapy: An Emerging Paradigm in Adaptive Radiation Oncology
+  URL: https://cris.maastrichtuniversity.nl/en/publications/d6b6e71b-8160-4e79-a3f7-c241ad7d8ba5
+  Source: OpenAlex
+  DOI: 10.1148/radiol.2020202747
+  Text Length: 5998 characters
+  Filter Keywords Found: 5
+
+Article 7:
+  Title: Radiation-induced brain injury: A review
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2012.00073/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2012.00073
+  Text Length: 115879 characters
+  Filter Keywords Found: 13
+
+Article 8:
+  Title: Effects of radiation on metastasis and tumor cell migration - Cellular and Molecular Life Sciences
+  URL: https://link.springer.com/content/pdf/10.1007/s00018-016-2210-5.pdf
+  Source: OpenAlex
+  DOI: 10.1007/s00018-016-2210-5
+  Text Length: 17478 characters
+  Filter Keywords Found: 6
+
+Article 9:
+  Title: The Role of Cancer Stem Cells in Radiation Resistance
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2020.00164/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2020.00164
+  Text Length: 81881 characters
+  Filter Keywords Found: 10
+
+Article 10:
+  Title: Connecting the dots in radiation oncology data: RadPlanBio use case
+  URL: https://ceur-ws.org/Vol-3939/short2.pdf
+  Source: OpenAlex
+  DOI: 10.5281/zenodo.20024274
+  Text Length: 21941 characters
+  Filter Keywords Found: 18
+
+Article 11:
+  Title: NCI-EVS: Building the Semantic Infrastructure to Support CDISC Data Standards and Real-World Data
+  URL: https://www.jscdm.org/article/id/134/download/pdf/
+  Source: OpenAlex
+  DOI: 10.47912/jscdm.134
+  Text Length: 55832 characters
+  Filter Keywords Found: 14
+
+Article 12:
+  Title: Modern Radiotherapy Concepts and the Impact of Radiation on Immune Activation
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2016.00141/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2016.00141
+  Text Length: 102308 characters
+  Filter Keywords Found: 14
+
+Article 13:
+  Title: Role of T lymphocytes in tumor response to radiotherapy
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2012.00095/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2012.00095
+  Text Length: 47115 characters
+  Filter Keywords Found: 12
+
+Article 14:
+  Title: Life on the dry side: a roadmap to understanding desiccation tolerance and accelerating translational applications
+  URL: https://www.nature.com/articles/s41467-025-58656-y.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41467-025-58656-y
+  Text Length: 104091 characters
+  Filter Keywords Found: 12
+
+Article 15:
+  Title: Parallel experiments in electrochemical CO2 reduction enabled by standardized analytics
+  URL: https://www.dora.lib4ri.ch/empa/dload/empa:38452/PDF2/view
+  Source: OpenAlex
+  DOI: 10.1038/s41929-024-01172-x
+  Text Length: 64173 characters
+  Filter Keywords Found: 9
+
+Article 16:
+  Title: CoSeC 2026 Mid-Year Forum Report
+  URL: http://purl.org/net/epubs/manifestation/66998240/STFC-CONF-2026-005.pdf
+  Source: OpenAlex
+  DOI: 10.5286/stfcconf.2026005
+  Text Length: 233531 characters
+  Filter Keywords Found: 14
+
+Article 17:
+  Title: Enabling data linkages for rare diseases in a resilient environment with the SERDIF framework
+  URL: https://www.nature.com/articles/s41746-024-01267-6.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41746-024-01267-6
+  Text Length: 54072 characters
+  Filter Keywords Found: 16
+
+Article 18:
+  Title: A Multimodal Dataset for Large Language Model Applications in the Energy Domain
+  URL: https://arxiv.org/pdf/2607.11459
+  Source: OpenAlex
+  DOI: N/A
+  Text Length: 69376 characters
+  Filter Keywords Found: 14
+
+Article 19:
+  Title: Building a Regional Data-Centric Materials Science Ecosystem for Processing-Rich Materials Innovation in the Great Plains
+  URL: https://arxiv.org/pdf/2605.19802
+  Source: OpenAlex
+  DOI: N/A
+  Text Length: 90872 characters
+  Filter Keywords Found: 15
+
+Article 20:
+  Title: The MURAL collection of prostate cancer patient-derived xenografts enables discovery through preclinical models of uro-oncology
+  URL: https://www.nature.com/articles/s41467-021-25175-5.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41467-021-25175-5
+  Text Length: 104304 characters
+  Filter Keywords Found: 16
+
+Article 21:
+  Title: The consensus molecular subtypes of colorectal cancer
+  URL: https://lirias.kuleuven.be/retrieve/f6cc339e-0d86-46d2-b377-1170a2c8d9b0
+  Source: OpenAlex
+  DOI: 10.1038/nm.3967
+  Text Length: 102826 characters
+  Filter Keywords Found: 19
+
+Article 22:
+  Title: Patient Perceptions on Data Sharing and Applying Artificial Intelligence to Health Care Data: Cross-sectional Survey
+  URL: https://www.jmir.org/2021/8/e26162/PDF
+  Source: OpenAlex
+  DOI: 10.2196/26162
+  Text Length: 47320 characters
+  Filter Keywords Found: 12
+
+Article 23:
+  Title: Artificial intelligence in neuro-oncology: advances and challenges in brain tumor diagnosis, prognosis, and precision treatment
+  URL: https://www.nature.com/articles/s41698-024-00575-0.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41698-024-00575-0
+  Text Length: 79622 characters
+  Filter Keywords Found: 17
+
