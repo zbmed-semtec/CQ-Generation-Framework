@@ -2,7 +2,7 @@
   "MAIN_DOMAIN_NAME": "Preclinical Trials in Radiation Oncology",
   "TOPIC_TERMS": [
     "Radiation Oncology",
-    "Preclinical Trials",
+    "Preclinical Research",
     "Animal Models",
     "Tumor Response",
     "Healthy Tissue",
@@ -16,19 +16,17 @@
     "Semantic Framework",
     "Biomedical Knowledge Graphs",
     "Data Standardization",
-    "Translational Research",
     "FAIR Data Practices",
+    "Translational Research",
     "Data Annotation",
-    "Research Collaboration",
+    "SPARQL Queries",
     "Data Sharing"
   ],
   "FILTER_KEYWORDS": [
     "radiation",
     "oncology",
     "preclinical",
-    "trials",
     "animal",
-    "models",
     "tumor",
     "tissue",
     "data",
@@ -36,31 +34,35 @@
     "SEND",
     "observations",
     "measurements",
-    "interventions",
-    "procedures",
-    "cohorts",
+    "intervention",
+    "cohort",
     "semantic",
     "bioinformatics",
     "research",
+    "standardization",
+    "analytics",
     "translational",
     "FAIR",
+    "query",
     "annotation",
-    "standardization",
-    "collaboration",
-    "sharing",
-    "analytics",
-    "knowledge",
-    "graph",
-    "experimentation"
+    "experimentation",
+    "models",
+    "variables",
+    "vocabularies",
+    "clinical",
+    "studies",
+    "metadata",
+    "repository"
   ],
   "MAIN_DOMAIN_WORDS": [
     "radiation",
     "oncology",
     "preclinical",
-    "data"
+    "data",
+    "research"
   ],
   "COMPOUND_GENERAL_TERMS": [
-    "Preclinical Research",
+    "Preclinical Trials",
     "Radiation Effects"
   ],
   "ONTOLOGY_COVERAGE_AREAS": [
@@ -69,9 +71,10 @@
     "Clinical Observations",
     "Laboratory Measurements",
     "Temporal Information",
-    "Data Standardization",
-    "Semantic Integration",
-    "Translational Research",
-    "FAIR Data Practices"
+    "Data Integration",
+    "Semantic Annotation",
+    "Knowledge Graphs",
+    "FAIR Data Practices",
+    "Translational Research"
   ]
 }

@@ -1,0 +1,250 @@
+ARTICLE COLLECTION SUMMARY
+==================================================
+
+Total Articles Collected: 30
+Total Input Tokens: 8012
+Generated on: 2026-09-23 13:27:31
+
+ARTICLES DETAILS:
+------------------------------
+
+Article 1:
+  Title: Radiation Therapy and Radiosensitizers in Cancer Treatment
+  URL: https://link.springer.com/chapter/10.1007/978-981-92-0477-9_10
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 58806 characters
+  Filter Keywords Found: 10
+
+Article 2:
+  Title: Preclinical Animal Models of Cancer: Applications and Limitations
+  URL: https://link.springer.com/content/pdf/10.1007/978-981-19-1282-5_54-1.pdf
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 17083 characters
+  Filter Keywords Found: 8
+
+Article 3:
+  Title: Preclinical Stroke Research and Translational Failure: A Bird’s Eye View on Preventable Variables - Cellular and Molecular Neurobiology
+  URL: https://link.springer.com/article/10.1007/s10571-021-01083-6
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 29889 characters
+  Filter Keywords Found: 10
+
+Article 4:
+  Title: Good Practice Guideline for Preclinical Alcohol Research: The STRINGENCY Framework
+  URL: https://link.springer.com/chapter/10.1007/7854_2024_484
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 1664 characters
+  Filter Keywords Found: 5
+
+Article 5:
+  Title: Alternatives of Animal Models for Biomedical Research: a Comprehensive Review of Modern Approaches - Stem Cell Reviews and Reports
+  URL: https://link.springer.com/article/10.1007/s12015-024-10701-x
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 29100 characters
+  Filter Keywords Found: 14
+
+Article 6:
+  Title: Safety and Toxicity Evaluation of Nutraceuticals in Animal Models
+  URL: https://link.springer.com/chapter/10.1007/978-3-030-04624-8_48
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 14887 characters
+  Filter Keywords Found: 9
+
+Article 7:
+  Title: Preclinical Applications of Integration of Magnetic Resonance Imaging and Spectroscopy: Bridging Structural and Metabolic Information
+  URL: https://link.springer.com/chapter/10.1007/978-3-031-99410-4_18
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 1620 characters
+  Filter Keywords Found: 9
+
+Article 8:
+  Title: Clinical Research in the Postgenomic Era
+  URL: https://link.springer.com/chapter/10.1007/978-3-319-98779-8_8
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 15946 characters
+  Filter Keywords Found: 12
+
+Article 9:
+  Title: The ups and downs of caloric restriction and fasting: from molecular effects to clinical application - EMBO Molecular Medicine
+  URL: https://link.springer.com/article/10.15252/emmm.202114418
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 15619 characters
+  Filter Keywords Found: 12
+
+Article 10:
+  Title: Neuroprotection by Remote Ischemic Conditioning in Rodent Models of Focal Ischemia: a Systematic Review and Meta-Analysis - Translational Stroke Research
+  URL: https://link.springer.com/article/10.1007/s12975-020-00882-1
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 8597 characters
+  Filter Keywords Found: 7
+
+Article 11:
+  Title: Toward a Semantic Framework for the Querying, Mining and Visualization of Cancer Microenvironment Data
+  URL: https://link.springer.com/chapter/10.1007/978-3-642-32395-9_9
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 8263 characters
+  Filter Keywords Found: 11
+
+Article 12:
+  Title: Microbiome knowledge graph as a tool to understand bacteria-host associations - Archives of Microbiology
+  URL: https://link.springer.com/article/10.1007/s00203-025-04413-0
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 17733 characters
+  Filter Keywords Found: 12
+
+Article 13:
+  Title: MedKG: enabling drug discovery through a unified biomedical knowledge graph - Molecular Diversity
+  URL: https://link.springer.com/article/10.1007/s11030-025-11164-z
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 6600 characters
+  Filter Keywords Found: 7
+
+Article 14:
+  Title: Knowledge Graphs and Their Applications in Drug Discovery
+  URL: https://link.springer.com/protocol/10.1007/978-1-0716-3449-3_9
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 9613 characters
+  Filter Keywords Found: 10
+
+Article 15:
+  Title: NLP Applications—Biomedical Literature
+  URL: https://link.springer.com/chapter/10.1007/978-3-031-55865-8_13
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 10606 characters
+  Filter Keywords Found: 9
+
+Article 16:
+  Title: Developing and Promoting Data Standards for Clinical Research
+  URL: https://link.springer.com/chapter/10.1007/978-3-031-27173-1_19
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 31860 characters
+  Filter Keywords Found: 14
+
+Article 17:
+  Title: Evolution of Clinical Trial Imaging and Co-clinical Imaging
+  URL: https://link.springer.com/chapter/10.1007/978-3-030-31171-1_14
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 8294 characters
+  Filter Keywords Found: 8
+
+Article 18:
+  Title: Translational Research in Lung Cancer
+  URL: https://link.springer.com/chapter/10.1007/174_2011_296
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 23144 characters
+  Filter Keywords Found: 7
+
+Article 19:
+  Title: Translational Research: Preclinical to Healthy Volunteer to Patient
+  URL: https://link.springer.com/chapter/10.1007/978-3-319-50042-3_11
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 19152 characters
+  Filter Keywords Found: 8
+
+Article 20:
+  Title: Translational Research in Drug Discovery and Development
+  URL: https://link.springer.com/chapter/10.1007/978-94-024-1045-7_3
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 19711 characters
+  Filter Keywords Found: 12
+
+Article 21:
+  Title: “It makes sense to me”: Examining data file column names in the visual cognitive literature - Behavior Research Methods
+  URL: https://link.springer.com/article/10.3758/s13428-026-03104-y
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 10244 characters
+  Filter Keywords Found: 6
+
+Article 22:
+  Title: Surgical Data Science: Emerging Trends and Future Pathways
+  URL: https://link.springer.com/chapter/10.1007/978-3-031-58257-8_5
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 19485 characters
+  Filter Keywords Found: 11
+
+Article 23:
+  Title: Data Sharing and Reuse of Health Data for Research
+  URL: https://link.springer.com/chapter/10.1007/978-3-031-27173-1_9
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 14635 characters
+  Filter Keywords Found: 14
+
+Article 24:
+  Title: Translational Bioinformatics and Clinical Research Informatics
+  URL: https://link.springer.com/chapter/10.1007/978-2-8178-0478-1_17
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 1541 characters
+  Filter Keywords Found: 8
+
+Article 25:
+  Title: A methodological framework for integrating model-guided medicine and multidimensional information management systems: application in anti-aging healthcare - International Journal of Computer Assisted
+  URL: https://link.springer.com/article/10.1007/s11548-025-03337-w
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 1518 characters
+  Filter Keywords Found: 5
+
+Article 26:
+  Title: Experimental designs for radiobiological characterization of an accelerator-based BNCT system in preclinical studies - Health and Technology
+  URL: https://link.springer.com/article/10.1007/s12553-024-00866-3
+  Source: Google Scholar
+  DOI: N/A
+  Text Length: 2012 characters
+  Filter Keywords Found: 8
+
+Article 27:
+  Title: Reproducibility of preclinical animal research improves with heterogeneity of study samples
+  URL: https://doi.org/10.1371/journal.pbio.2003693
+  Source: OpenAlex
+  DOI: 10.1371/journal.pbio.2003693
+  Text Length: 22733 characters
+  Filter Keywords Found: 11
+
+Article 28:
+  Title: Patient-derived xenograft models in cancer therapy: technologies and applications
+  URL: https://www.nature.com/articles/s41392-023-01419-2.pdf
+  Source: OpenAlex
+  DOI: 10.1038/s41392-023-01419-2
+  Text Length: 161021 characters
+  Filter Keywords Found: 21
+
+Article 29:
+  Title: Targeting Macrophages in Cancer: From Bench to Bedside
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2018.00049/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2018.00049
+  Text Length: 109392 characters
+  Filter Keywords Found: 16
+
+Article 30:
+  Title: Radiotherapy and the Tumor Stroma: The Importance of Dose and Fractionation
+  URL: https://www.frontiersin.org/articles/10.3389/fonc.2014.00001/pdf
+  Source: OpenAlex
+  DOI: 10.3389/fonc.2014.00001
+  Text Length: 86080 characters
+  Filter Keywords Found: 15
+
