@@ -11,6 +11,11 @@ import spacy
 import numpy as np
 from datetime import datetime
 from utils import load_environment_variables, initialize_clients
+from extract_articles_openalex import (
+    ONTOLOGY_COVERAGE_AREAS
+)
+
+coverage_text = "\n".join(f"- {a}" for a in ONTOLOGY_COVERAGE_AREAS)
 
 load_environment_variables()
 deployment_name, serpapi_api_key = initialize_clients()
@@ -30,8 +35,8 @@ except OSError:
 SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", 0.7))
 SYNTACTIC_WEIGHT = float(os.getenv("SYNTACTIC_WEIGHT", 0.3))
 REDUNDANCY_THRESHOLD = float(os.getenv("REDUNDANCY_THRESHOLD", 0.75))
-RELEVANCE_WEIGHT = float(os.getenv("RELEVANCE_WEIGHT", 0.7))  # 70% weight to relevance
-COMPLEXITY_WEIGHT = float(os.getenv("COMPLEXITY_WEIGHT", 0.3))  # 30% weight to (inverted) complexity
+RELEVANCE_WEIGHT = float(os.getenv("RELEVANCE_WEIGHT", 0.8))  
+COMPLEXITY_WEIGHT = float(os.getenv("COMPLEXITY_WEIGHT", 0.2))  
 FINAL_THRESHOLD = float(os.getenv("FINAL_THRESHOLD", 0.5))
 
 # ========== Load Domain Info ==========
@@ -41,19 +46,9 @@ with open(domain_info_file, "r", encoding="utf-8") as f:
 
 MAIN_DOMAIN_NAME = domain_info.get("MAIN_DOMAIN_NAME", "Unknown Domain")
 
-all_items = []
-
-# Iterate through all key-value pairs in the domain_info dictionary
-for key, value in domain_info.items():
-    all_items.append(key)
-
-    # Add the values
-    if isinstance(value, list):
-        all_items.extend(value)
-    else:
-        all_items.append(str(value))
-
-scope_text = "\n".join(all_items)
+scope_file = Path(__file__).resolve().parent / "json_input/scope-expert.json"
+with open(scope_file, "r", encoding="utf-8") as f:
+    scope_text = "\n".join(item["response"] for item in json.load(f))
 
 # ========== Normalize Relevance Score ==========
 def normalize_relevance(relevance: int) -> float:
@@ -118,44 +113,52 @@ def analyze_linguistic_complexity(text: str) -> dict:
         "complexity_score": round(normalized_complexity, 3)
     }
 
-
 # ========== Relevance check ==========
-def get_relevance_score(cq: str) -> int:
-    prompt = f"""
-    You are an experienced expert in the field of **{MAIN_DOMAIN_NAME}**. Below is a transcript describing the ontology scope, keywords and coverage areas:
+def get_relevance_score(cq, max_retries=3):
+    cq_text = re.sub(r"^\s*\d+[\.\)]\s*", "", str(cq)).strip()
 
+    prompt = f"""You are an experienced ontology engineer with expertise in **{MAIN_DOMAIN_NAME}**.
+
+The ontology to be developed is described by the following domain expert input:
 {scope_text}
 
-Your task is to determine whether a given competency question (CQ) is relevant to the domain of this ontology. 
+The ontology should cover these areas:
+{coverage_text}
 
-Rate the following competency question (CQ) on a 4-point Likert scale for domain relevance:
-(4) Explicitly matches requirements of the metadata schema.
-(3) Implicit but clearly inferable requirement necessary for metadata schema goals.
-(2) Only tangentially related — loosely connected but not necessary for schema goals.
-(1) Irrelevant — not expressed, not inferable, and not useful for this schema.
+Your task is to rate how relevant a competency question (CQ) is to this ontology, i.e. whether answering it
+requires information that the ontology must represent for its intended users and use cases.
 
-CQ: "{cq}"
+Important:
+- CQs are often short and generic (e.g., "What is the sex of the subject?"). A CQ does NOT need to mention the
+  domain explicitly. Judge the information it asks for, interpreted in the context of this ontology.
+- Rate relevance only. Do not penalise wording, specificity, or complexity; these are assessed separately.
 
-Answer only with a single number: 1, 2, 3, or 4.
+Rating scale:
+(4) Explicitly relevant: asks for information that clearly belongs to one of the coverage areas.
+(3) Implicitly relevant: not explicitly listed, but clearly inferable as needed for the ontology's goals.
+(2) Tangentially related: loosely connected to the domain, but not needed for the ontology's goals.
+(1) Irrelevant: not needed for this ontology.
 
-Be strict: If the question is not clearly useful for the schema scope, score it 1. Do not hesitate to give a score of 1 when in doubt.
+CQ: "{cq_text}"
 
-"""
-    try:
-        response = openai.chat.completions.create(
-            model=deployment_name,
-            messages=[
-                {"role": "system", "content": "You are a helpful metadata schema development assistant."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0,
-            max_tokens=5,
-        )
-        score = int(response.choices[0].message.content.strip())
-        return score
-    except Exception as e:
-        print(f"LLM relevance error for CQ '{cq}':", e)
-        return 1
+Answer only with a single number: 1, 2, 3, or 4."""
+
+    for attempt in range(max_retries):
+        try:
+            resp = openai.chat.completions.create(
+                model=deployment_name,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0,
+                max_tokens=5,
+            )
+            m = re.search(r"[1-4]", resp.choices[0].message.content)
+            if m:
+                return int(m.group())
+            print(f"[WARNING] Unparseable answer for CQ: {cq_text!r}")
+        except Exception as e:
+            print(f"[WARNING] Relevance error (attempt {attempt+1}) for CQ {cq_text!r}: {e}")
+    print(f"[ERROR] No valid score for CQ {cq_text!r}; returning None")
+    return None
 
 # ========== Redundancy Functions ==========
 def get_embedding(text: str) -> np.ndarray:
@@ -265,7 +268,7 @@ def remove_redundant_questions(questions: list, threshold: float = 0.75, prefer_
             relevances = []
             for idx in comp:
                 try:
-                    r = get_relevance_score(questions[idx])
+                    r = get_relevance_score(questions[idx]) or 1
                 except Exception:
                     r = 1
                 relevances.append((r, idx))
@@ -295,13 +298,15 @@ def cluster_questions(questions: list) -> pd.DataFrame:
     prompt = f"""
     You are an expert in the field of **{MAIN_DOMAIN_NAME}**.
 
+    Cluster the competency questions into the following predefined Ontology Coverage Areas:
+    {json.dumps(ONTOLOGY_COVERAGE_AREAS, indent=2)}
+
     Follow these steps to cluster the competency questions:
 
-    Step 1: Read through all {len(questions)} questions and identify recurring themes or topics.
-    Step 2: Determine 5-7 main themes that best organize these questions.
-    Step 3: Assign each question to the most appropriate theme based on its focus.
-    Step 4: Create meaningful cluster titles that capture each theme.
-    Step 5: Verify that ALL {len(questions)} questions are included (none omitted).
+    Step 1: Read through all {len(questions)} questions.
+    Step 2: Assign each question to the coverage area it best fits, based on the list above.
+    Step 3: Only use a category outside this list ("Other") if a question genuinely does not fit any coverage area — this should be rare.
+    Step 4: Verify that ALL {len(questions)} questions are included (none omitted).
 
     Return your result as JSON:
     [{{"Cluster": "title", "Questions": ["Q1", "Q2"]}}]
@@ -320,7 +325,7 @@ def cluster_questions(questions: list) -> pd.DataFrame:
                      "content": "You are an ontology engineering assistant skilled in thematic clustering. You MUST include every question in your output."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.1,
+                temperature=0,
                 max_tokens=5000,
             )
             raw_output = response.choices[0].message.content.strip()
@@ -364,7 +369,7 @@ def cluster_questions(questions: list) -> pd.DataFrame:
                     })
 
             df = pd.DataFrame(rows)
-            print(f"✓ Clustered {len(df)} questions (expected {len(questions)})")
+            print(f"Clustered {len(df)} questions (expected {len(questions)})")
             return df
 
         except Exception as e:
@@ -479,14 +484,17 @@ def filter_cqs(input_file: str, output_file: str, renumber_sequential: bool = Fa
 
 if __name__ == "__main__":
     output_dir = Path(__file__).resolve().parent / "output"
+
     cqs_files = list(output_dir.glob("llm_input_springer_*.xlsx"))
+    refined_files = list(output_dir.glob("llm_input_springer_*.xlsx"))
 
     if not cqs_files:
         raise FileNotFoundError("No matching llm_input_springer_*.xlsx files found in output/")
 
     # Extract timestamp from filenames and pick the latest
     def extract_timestamp(f: Path) -> datetime:
-        # filename pattern: llm_input_springer_YYYYMMDD_HHMMSS.xlsx
+
+        # filename pattern: refined_cqs_springer_YYYYMMDD_HHMMSS.xlsx
         ts_str = f.stem.replace("llm_input_springer_", "")
         return datetime.strptime(ts_str, "%Y%m%d_%H%M%S")
 
